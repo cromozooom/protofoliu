@@ -9,7 +9,7 @@ $newsletter_custom06: #a2a2a2
 
 .newsletter
 	.blockquoteTitle, cite
-		color: #50bbab
+		color: $newsletter_custom03
 
 	blockquote
 		span
@@ -19,7 +19,7 @@ $newsletter_custom06: #a2a2a2
 			background: red
 			margin-top: -10rem
 		a
-			color: $primary-color-pr01
+			color: $newsletter_custom03
 
 	.heroImage
 		background: $primary-color-pr01
@@ -36,7 +36,7 @@ $newsletter_custom06: #a2a2a2
 
 	svg
 		max-width: 60px
-		fill: $primary-color-pr01
+		fill:$newsletter_custom03
 	.lead
 		margin-bottom: 4em
 	.cta
@@ -46,24 +46,46 @@ $newsletter_custom06: #a2a2a2
 		margin-top: -5em
 
 	.content
+		padding:  1rem 2rem
+		h5, p
+			padding: 0.5rem 0
 		h5
-			padding: 1em
 			font-family: $font-family-heads
+		p
+			font-size: .8rem
+		a
+			font-family: $font-family-heads
+			text-decoration: none
+			font-size: .8rem
+			font-weight: 700
+
 	.thumb01
 		.content
 			background: $newsletter_custom05
 			h5
 				color: $newsletter_custom01
+			p
+				color: $primary-color-pr01
+			a
+				color: black
 
 	.thumb02
 		.content
 			background: $newsletter_custom03
 			h5
 				color: $newsletter_custom01
+			p
+				color: darken(white, 40% )
+			a
+				color: $newsletter_custom01
 
 	.thumb03
 		.content
 			background: $newsletter_custom06
 			h5
+				color: darken(white, 90% )
+			p
+				color: darken(white, 90% )
+			a
 				color: white
 
