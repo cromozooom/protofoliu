@@ -22,7 +22,12 @@ html(lang="en")
 		// IE10 viewport hack for Surface/desktop Windows 8 bug
 		//- script(src="../../assets/js/ie10-viewport-bug-workaround.js")
 
+		// picturefill
+		script document.createElement( "picture" );
+		script (src="#{assetsPath}js/picturefill.js")
+
 	body
+		include include/mixin
 		include include/svg
 		.collapse#myMenu
 			ul.nav.navbar-nav.pull-right
@@ -40,37 +45,13 @@ html(lang="en")
 			//a.navbar-brand(href="index.html")
 				svg(viewBox="0 0 170 40" width="170" height="40")
 					use(xlink:href="#logo" x="0" y="0")
-
 			a.navbar-brand.navbar-toggler(type="button" data-toggle="collapse" data-target="#myMenu")
 				svg(viewBox="0 0 170 40" width="170" height="40")
 					use(xlink:href="#logo" x="0" y="0")
-
 			button.navbar-toggler.pull-right(type="button" data-toggle="collapse" data-target="#myMenu") &#9776; Menu
 
-		//- #carousel-example-generic.carousel.slide(data-ride="carousel")
-			ol.carousel-indicators
-				li.active(data-target="#carousel-example-generic" data-slide-to="0")
-				li(data-target="#carousel-example-generic" data-slide-to="1")
-				li(data-target="#carousel-example-generic" data-slide-to="2")
-			.carousel-inner(role="listbox")
-				.carousel-item.active
-					img(src="#{assetsPath}images/slide01.jpg" alt="First slide")
-				.carousel-item
-					img(src="#{assetsPath}images/slide02.jpg" alt="First slide")
-				.carousel-item
-					img(src="#{assetsPath}images/slide03.jpg" alt="First slide")
-
-			a.left.carousel-control(href="#carousel-example-generic" role="button" data-slide="prev")
-				span.icon-prev(aria-hidden="true")
-				span.sr-only Previous
-			a.right.carousel-control(href="#carousel-example-generic" role="button" data-slide="next")
-				span.icon-next(aria-hidden="true")
-				span.sr-only Next
-		.container-fluid
-			section.aboutMe
-				.row
-					.col-sm-12
-
+		//- include include/carousel
+		include include/iCanCode
 		include include/bufnitaDinTei
 		include include/newsletter
 
