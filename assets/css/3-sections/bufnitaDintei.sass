@@ -1,8 +1,13 @@
-$primary-color-pr01: #50bbab
-$bufnitza_custom01: #94ffef
+$bufnitza_primary: #50bbab
+$bufnitza_accent01: #94ffef
+$bufnitza_accent02: #fdd208
+$bufnitza_accent03: #106e63
+$bufnitza_accent04: #e7e7e7
+
+
 .bufnitaDinTei
 	.blockquoteTitle, cite
-		color: #50bbab
+		color: $bufnitza_primary
 
 	blockquote
 		span
@@ -12,24 +17,24 @@ $bufnitza_custom01: #94ffef
 			background: red
 			margin-top: -10rem
 		a
-			color: $primary-color-pr01
+			color: $bufnitza_primary
 
 	.heroImage
-		background: $bufnitza_custom01
+		background: $bufnitza_accent01
 		width: 100%
 		overflow: hidden
 	img
 		margin: 0 auto
 	a.btn.btn-primary-outline
-		border-color: $primary-color-pr01
-		color: $primary-color-pr01
+		border-color: $bufnitza_primary
+		color: $bufnitza_primary
 		&:hover
-			background:  $primary-color-pr01
-			color: lighten($primary-color-pr01, 70%)
+			background:  $bufnitza_primary
+			color: lighten($bufnitza_primary, 70%)
 
 	svg
 		max-width: 60px
-		fill: $primary-color-pr01
+		fill: $bufnitza_primary
 	.lead
 		margin-bottom: 4em
 	.cta
@@ -44,19 +49,19 @@ $bufnitza_custom01: #94ffef
 			font-family: $font-family-heads
 	.thumb01
 		.content
-			background: #106e63
+			background: $bufnitza_accent03
 			h5
 				color: white
 
 	.thumb02
 		.content
-			background: #fdd208
+			background: $bufnitza_accent02
 			h5
 				color: black
 
 	.thumb03
 		.content
-			background: #e7e7e7
+			background: $bufnitza_accent04
 			h5
 				color: black
 
