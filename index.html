@@ -43,39 +43,33 @@
     </svg>
     <div id="myMenu" class="collapse">
       <ul class="nav navbar-nav pull-right">
-        <div class="p-a">
-          <li class="nav-item active disabled"><a href="#" class="nav-link active">HOME</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
-        </div>
+        <li class="nav-item active"><a href="index.html" class="nav-link active disable">HOME</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
       </ul>
       <div class="clearfix"></div>
     </div>
     <!--.container-fluid-->
-    <nav class="navbar">
-      <!--a.navbar-brand(href="index.html")
-      svg(viewBox="0 0 170 40" width="170" height="40")
-      	use(xlink:href="#logo" x="0" y="0")
-      --><a type="button" data-toggle="collapse" data-target="#myMenu" class="navbar-brand navbar-toggler">
+    <nav class="navbar"><a type="button" data-toggle="collapse" data-target="#myMenu" class="navbar-brand navbar-toggler">
         <svg viewBox="0 0 170 40" width="170" height="40">
           <use xlink:href="#logo" x="0" y="0"></use>
         </svg></a>
-      <button type="button" data-toggle="collapse" data-target="#myMenu" class="navbar-toggler pull-right">&#9776; Menu</button>
+      <button type="button" data-toggle="collapse" data-target="#myMenu" class="navbar-toggler pull-right hidden-md-up">Menu</button>
+      <button type="button" data-toggle="collapse" data-target="#myMenu" class="navbar-toggler pull-right hidden-sm-down">Menu &#9776;</button>
     </nav>
     <section class="proiect iCanCode">
       <div class="heroImage">
-            <picture>
-              <source srcset="assets/images/icancode_huge.jpg" media="(min-width: 1000px)">
-              <source srcset="assets/images/icancode_large.jpg" media="(min-width: 800px)"><img srcset="assets/images/icancode_small.jpg" alt="I can CODE" class="img-responsive">
-            </picture>
+        <picture>
+          <source srcset="assets/images/icancode_huge.jpg" media="(min-width: 1000px)"/>
+          <source srcset="assets/images/icancode_large.jpg" media="(min-width: 800px)"/><img srcset="assets/images/icancode_small.jpg" alt="I can CODE" class="img-responsive"/>
+        </picture>
       </div>
     </section>
     <section class="proiect bufnitaDinTei">
       <div class="heroImage">
-            <picture>
-              <source srcset="assets/images/slide01_huge.jpg" media="(min-width: 1000px)">
-              <source srcset="assets/images/slide01_large.jpg" media="(min-width: 800px)"><img srcset="assets/images/slide01_small.jpg" alt="bufnita din tei project by solopx" class="img-responsive">
-            </picture>
+        <picture>
+          <source srcset="assets/images/slide01_huge.jpg" media="(min-width: 1000px)"/>
+          <source srcset="assets/images/slide01_large.jpg" media="(min-width: 800px)"/><img srcset="assets/images/slide01_small.jpg" alt="bufnita din tei project by solopx" class="img-responsive"/>
+        </picture>
       </div>
       <div class="container-fluid">
         <div class="container">
@@ -97,25 +91,25 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-12"><br><br>
+            <div class="col-xs-12"><br><br>
               <h3 class="text-center">"Owl from the linden" - project</h3>
               <p class="lead text-center">It was a pleasure to play with the colors and basic shapes</p>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-2 col-md-1">
               <svg viewBox="0 0 100 100" width="100" height="100">
                 <use xlink:href="#vector" x="0" y="0"></use>
               </svg>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-10 col-md-5">
               <h4>Logo</h4>
               <p>This project dedicated to children because the <strong>Owl from the linden</strong> is a private school dedicated to Art from Romania.<br>In achieving identity, in fact a very simple concept, I used: Owl - teacher figure and diligent small hand of the children</p>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-2 col-md-1">
               <svg viewBox="0 0 100 100" width="100" height="100">
                 <use xlink:href="#webSite" x="0" y="0"></use>
               </svg>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-10 col-md-5">
               <h4>Website</h4>
               <p>
                 The site on the other hand, gave me headaches as long as it had to do all the illustrations in the same style owl symbol.
@@ -123,15 +117,15 @@
               </p>
             </div>
             <div class="clearfix"></div>
-            <div class="col-sm-5 col-sm-push-1"><a href="#" class="btn btn-lg btn-primary-outline">See logo presentation</a></div>
-            <div class="col-sm-5 col-sm-push-2"><a href="#" class="btn btn-lg btn-primary-outline">See website</a></div>
+            <div class="col-sm-6"><a href="#" class="btn btn-sm btn-primary-outline">See logo presentation</a></div>
+            <div class="col-sm-6"><a href="#" class="btn btn-sm btn-primary-outline">See website</a></div>
             <div class="clearfix"></div><br><br>
-            <div class="col-xs-2 col-sm-1">
+            <div class="col-sm-2 col-md-1">
               <svg viewBox="0 0 100 100" width="100" height="100">
                 <use xlink:href="#quote" x="0" y="0"></use>
               </svg>
             </div>
-            <div class="col-xs-10 col-sm-11">
+            <div class="col-sm-10 col-md-11">
               <p class="small blockquoteTitle">Take a look at what the customer said</p>
               <blockquote>
                 <p>"So, working with Razvan was a … very good strategic decision!<br>Behind that keyboard a veritable artist transpose your thought in a clearer concept, illuminating your representation!"</p>
@@ -158,10 +152,10 @@
     </section>
     <section class="proiect newsletter">
       <div class="heroImage">
-            <picture>
-              <source srcset="assets/images/slide02_huge.jpg" media="(min-width: 1000px)">
-              <source srcset="assets/images/slide02_large.jpg" media="(min-width: 800px)"><img srcset="assets/images/slide02_small.jpg" alt="bufnita din tei project by solopx" class="img-responsive">
-            </picture>
+        <picture>
+          <source srcset="assets/images/slide02_huge.jpg" media="(min-width: 1000px)"/>
+          <source srcset="assets/images/slide02_large.jpg" media="(min-width: 800px)"/><img srcset="assets/images/slide02_small.jpg" alt="bufnita din tei project by solopx" class="img-responsive"/>
+        </picture>
       </div>
       <div class="container-fluid">
         <div class="container">
@@ -196,7 +190,7 @@
               </svg>
             </div>
             <div class="col-sm-5">
-              <h4>More than <strong>80%</strong></h4>
+              <h4><strong>80%</strong> less time</h4>
               <p>With Google sheet, I extracted <strong>"LIVE"</strong> product data, without any little help from programmers :)<br>I created spreadshets to directly export the configuration files for product blocks.
                 In this way development time decreased by <strong>more than 80%</strong>.
               </p>
@@ -208,8 +202,7 @@
             </div>
             <div class="col-sm-5">
               <h4>More than 5 brand</h4>
-              <p>
-                The same workflow for more than 5 brands: Fiorentina, Lazio, F4U, FIR, Djokovic used the same configuration file.
+              <p>The same workflow for more than 5 brands who use the same configuration file.
                 In a few simple steps marcheting team succeeds to create more than 2 newsletters per day ;)<br>They take care much more NOW on our content offers...
               </p>
             </div>

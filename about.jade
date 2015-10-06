@@ -1,0 +1,20 @@
+extend include/template
+include include/mixin
+
+block navigation
+	+navItem(flase, "index.html", "HOME")
+	+navItem(true, "about.html", "ABOUT")
+
+block contentPage
+	section.about
+	.container-fluid
+		.container
+			.row
+				.col-xs-12
+					h1 I'm a 39 years old romanian
+					h1
+						| UX & Interaction designer
+						br
+						| based in Milano
+						br
+						| and currently searching for opportunity.

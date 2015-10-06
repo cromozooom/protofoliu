@@ -1,102 +1,12 @@
-block primary
-	- var assetsPath = "assets/"
+extend include/template
+include include/mixin
 
-- var title = "my site"
+block navigation
+	+navItem(true, "index.html", "HOME")
+	+navItem(false, "about.html", "ABOUT")
 
-doctype html
-html(lang="en")
-	head
-		meta(charset="utf-8")
-		meta(http-equiv="X-UA-Compatible" content="IE=edge")
-		meta(name="viewport" content="width=device-width, initial-scale=1")
-		//- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-		meta(name="description" content="")
-		meta(name="author" content="")
-		link(rel="icon" href="#{assetsPath}favicon.ico")
-
-		title= title
-
-		link(href="#{assetsPath}css/main.css" rel="stylesheet")
-		link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
-
-		// IE10 viewport hack for Surface/desktop Windows 8 bug
-		//- script(src="../../assets/js/ie10-viewport-bug-workaround.js")
-
-		// picturefill
-		script document.createElement( "picture" );
-		script (src="#{assetsPath}js/picturefill.js")
-
-	body
-		include include/mixin
-		include include/svg
-		.collapse#myMenu
-			ul.nav.navbar-nav.pull-right
-				.p-a
-					li.nav-item.active.disabled
-						a.nav-link.active(href="#") HOME
-					li.nav-item
-						a.nav-link(href="#") ABOUT
-					li.nav-item
-						a.nav-link(href="#") CONTACT
-			.clearfix
-
-		//.container-fluid
-		nav.navbar
-			//a.navbar-brand(href="index.html")
-				svg(viewBox="0 0 170 40" width="170" height="40")
-					use(xlink:href="#logo" x="0" y="0")
-			a.navbar-brand.navbar-toggler(type="button" data-toggle="collapse" data-target="#myMenu")
-				svg(viewBox="0 0 170 40" width="170" height="40")
-					use(xlink:href="#logo" x="0" y="0")
-			button.navbar-toggler.pull-right(type="button" data-toggle="collapse" data-target="#myMenu") &#9776; Menu
-
-		//- include include/carousel
-		include include/iCanCode
-		include include/bufnitaDinTei
-		include include/newsletter
-
-
-			//section.proiect.bufnitaDinTei
-				img.img-responsive(src="#{assetsPath}images/slide02.jpg" alt="First slide")
-				.container-fluid
-					.container
-						.row
-							.col-sm-12
-								br
-								h3.text-center BoddyBank - review and new concept
-								p.lead.text-center It was a pleasure to play with the colors and basic shapes
-							.col-sm-1
-								svg(viewBox="0 0 100 100" width="100" height="100")
-									use(xlink:href="#vector" x="0" y="0")
-							.col-sm-5
-								h4
-									| New concept
-								p
-									| This project dedicated to children because the <strong>Owl from the linden</strong> is a private school dedicated to Art from Romania.
-									br
-									| In achieving identity, in fact a very simple concept, I used: Owl - teacher figure and diligent small hand of the children
-
-							.col-sm-1
-								svg(viewBox="0 0 100 100" width="100" height="100")
-									use(xlink:href="#webSite" x="0" y="0")
-							.col-sm-5
-								h4 Website
-								p
-									| The site on the other hand, gave me headaches as long as it had to do all the illustrations in the same style owl symbol.
-									| I leave you now to discover, the client presentation
-							.clearfix
-							.col-sm-5.col-sm-push-1
-								a.btn.btn-lg.btn-primary-outline(href="#") See logo presentation
-
-							.col-sm-5.col-sm-push-2
-								a.btn.btn-lg.btn-primary-outline(href="#") See website
-							.clearfix
-							br
-							br
-							hr
-
-
-
-		//- Bootstrap core JavaScript
-		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
-		script(src="#{assetsPath}js/bootstrap.min.js")
+block contentPage
+	//- include include/carousel
+	include include/iCanCode
+	include include/bufnitaDinTei
+	include include/newsletter
