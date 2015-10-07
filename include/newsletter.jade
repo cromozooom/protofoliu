@@ -1,8 +1,91 @@
 section.proiect.newsletter
+	.container-fluid
+		.row
+			.col-sm-12
+				br
+				br
+				h3.text-center Responsive email - top speed workflow
+				p.lead.text-center After 15 years of searching, I finally found the solution: <strong>"JADE"</strong> :)
+			clearfix
 	.heroImage
 		+picture("slide02", "bufnita din tei project by solopx", "1000", "800")
-	.container-fluid
+	br
+	.container
+		.row
+			.col-sm-1
+				svg(viewBox="0 0 100 100" width="100" height="100")
+					use(xlink:href="#vector" x="0" y="0")
+			.col-sm-5
+				h4
+					| <strong>80%</strong> less time
+				p
+					| With Google sheet, I extracted <strong>"LIVE"</strong> product data, without any little help from programmers :)
+					br
+					| I created spreadshets to directly export the configuration files for product blocks.
+					| In this way development time decreased by <strong>more than 80%</strong>.
+			.col-sm-1
+				svg(viewBox="0 0 100 100" width="100" height="100")
+					use(xlink:href="#webSite" x="0" y="0")
+			.col-sm-5
+				h4 More than 5 brand
+				p
+					//- The same workflow for more than 5 brands: Fiorentina, Lazio, F4U, FIR, Djokovic used the same configuration file.
+					| The same workflow for more than 5 brands who use the same configuration file.
+					| In a few simple steps marcheting team succeeds to create more than 2 newsletters per day ;)
+					br
+					| They take care much more NOW on our content offers...
+	.blocksBg
 		.container
+			.row
+				.col-sm-12.col-md-6.blocks.pull-right
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
+				.col-sm-12.col-md-6.blocks
+					.vcenter_content
+						h3 Brick - modules
+						p Easy to manipulate, this newsletter is designed modular. Each module has a verry whell structured configuration file.
+						hr
+						.row
+							.col-xs-6
+								h5.small Brand configuration
+								p.small
+									| - color cheme
+									br
+									| - menu items
+									br
+									| - social network links
+							.col-xs-6
+								h5.small Message configuration
+								p.small
+									| - imported data product
+									br
+									| - traking code
+									br
+									| - copy for any blocks
+						a(href="#") view documentation &#8594;
+	.responsiveBg
+		.container
+			.row
+				.col-sm-12.col-md-6.responsive
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
+				.col-sm-12.col-md-6.responsive.pull-right
+					.vcenter_content
+						h3 Responsive
+						p Having in mind the obsession of "responsibility", These blocks behave responsive for different resolutions.
+						a(href="#") view sample &#8594;
+	.multiBrandBg
+		.container
+			.row
+				.col-sm-12.col-md-6.multiBrand.pull-right
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter03.jpg" alt="First slide")
+				.col-sm-12.col-md-6.multiBrand
+					.vcenter_content
+						h3 Multi brand
+						p The data is taken directly from e-commerce site. It has been designed to be easily adapted for other brands (already has five color versions).
+						a(href="#") view on github &#8594;
+		//.container
 			.row.thumbProject
 				.col-sm-12.col-md-4.thumb01
 					.content
@@ -23,34 +106,6 @@ section.proiect.newsletter
 						p The data is taken directly from e-commerce site. It has been designed to be easily adapted for other brands (already has five color versions).
 						a(href="#") view on github &#8594;
 
-			.row
-				.col-sm-12
-					br
-					br
-					h3.text-center Responsive email - top speed workflow
-					p.lead.text-center After 15 years of searching, I finally found the solution: <strong>"JADE"</strong> :)
-				.col-sm-1
-					svg(viewBox="0 0 100 100" width="100" height="100")
-						use(xlink:href="#vector" x="0" y="0")
-				.col-sm-5
-					h4
-						| <strong>80%</strong> less time
-					p
-						| With Google sheet, I extracted <strong>"LIVE"</strong> product data, without any little help from programmers :)
-						br
-						| I created spreadshets to directly export the configuration files for product blocks.
-						| In this way development time decreased by <strong>more than 80%</strong>.
-				.col-sm-1
-					svg(viewBox="0 0 100 100" width="100" height="100")
-						use(xlink:href="#webSite" x="0" y="0")
-				.col-sm-5
-					h4 More than 5 brand
-					p
-						//- The same workflow for more than 5 brands: Fiorentina, Lazio, F4U, FIR, Djokovic used the same configuration file.
-						| The same workflow for more than 5 brands who use the same configuration file.
-						| In a few simple steps marcheting team succeeds to create more than 2 newsletters per day ;)
-						br
-						| They take care much more NOW on our content offers...
 				//-
 					.clearfix
 					br

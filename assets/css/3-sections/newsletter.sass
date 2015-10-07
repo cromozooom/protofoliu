@@ -6,8 +6,71 @@ $newsletter_accent04: #e7e7e7
 $newsletter_accent05: #b3ff00
 $newsletter_accent06: #a2a2a2
 
+=vcenter($height)
+	position: relative
+	height: $height
+	.vcenter_content
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+	.vcenter_content.center
+		margin: 0 auto
+	img
+		max-height: $height
+.blocksBg
+	background: $newsletter_accent05
+	a
+		color: $newsletter_accent03
 
+.responsiveBg
+	background: $newsletter_accent03
+	p
+		color: $newsletter_accent04
+	a, h3
+		color: $newsletter_accent05
+
+.multiBrandBg
+	background: $newsletter_accent06
+	h3
+		color: white
+	a
+		color: $newsletter_accent03
+
+.blocksBg, .responsiveBg, .multiBrandBg
+	padding-bottom: 1em
+	overflow: hidden
+	display: block
+	width: 100%
+
+
+// Small devices (landscape phones, 34em and up)
+// @media (min-width: 34em)
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em)
+	.responsive
+		.vcenter_content
+			text-align: right
+	.blocks, .responsive, .multiBrand
+		+vcenter(30rem)
+
+	.blocksBg, .multiBrand
+		img
+			margin-left: 3em
+
+
+
+// Large devices (desktops, 62em and up)
+// @media (min-width: 62em)
+
+// Extra large devices (large desktops, 75em and up)
+//@media (min-width: 75em) { ... }
+
+
+	img
+		max-height: 14vh
 .newsletter
+
 	.blockquoteTitle, cite
 		color: $newsletter_accent03
 
@@ -25,8 +88,6 @@ $newsletter_accent06: #a2a2a2
 		background: $newsletter_primary
 		width: 100%
 		overflow: hidden
-	img
-		margin: 0 auto
 	a.btn.btn-primary-outline
 		border-color: $newsletter_primary
 		color: $newsletter_primary
