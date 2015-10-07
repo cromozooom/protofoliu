@@ -1,11 +1,3 @@
-$newsletter_primary:		#2b2d29
-$newsletter_accent01: #87c300
-$newsletter_accent02: #106e63
-$newsletter_accent03: #3d3d56
-$newsletter_accent04: #e7e7e7
-$newsletter_accent05: #b3ff00
-$newsletter_accent06: #a2a2a2
-
 =vcenter($height)
 	position: relative
 	height: $height
@@ -17,6 +9,8 @@ $newsletter_accent06: #a2a2a2
 		margin: 0 auto
 	img
 		max-height: $height
+
+
 .blocksBg
 	background: $newsletter_accent05
 	a
@@ -42,34 +36,15 @@ $newsletter_accent06: #a2a2a2
 	display: block
 	width: 100%
 
-
-// Small devices (landscape phones, 34em and up)
-// @media (min-width: 34em)
-
-// Medium devices (tablets, 48em and up)
-@media (min-width: 48em)
-	.responsive
-		.vcenter_content
-			text-align: right
-	.blocks, .responsive, .multiBrand
-		+vcenter(30rem)
-
-	.blocksBg, .multiBrand
-		img
-			margin-left: 3em
-
-
-
-// Large devices (desktops, 62em and up)
-// @media (min-width: 62em)
-
-// Extra large devices (large desktops, 75em and up)
-//@media (min-width: 75em) { ... }
-
-
 	img
 		max-height: 14vh
 .newsletter
+	.titleProject
+			background: $newsletter_primary
+			color: white
+			h2
+				color: $newsletter_accent01
+
 
 	.blockquoteTitle, cite
 		color: $newsletter_accent03
@@ -88,6 +63,8 @@ $newsletter_accent06: #a2a2a2
 		background: $newsletter_primary
 		width: 100%
 		overflow: hidden
+		img
+			margin: 0 auto
 	a.btn.btn-primary-outline
 		border-color: $newsletter_primary
 		color: $newsletter_primary
@@ -150,3 +127,25 @@ $newsletter_accent06: #a2a2a2
 			a
 				color: white
 
+// Small devices (landscape phones, 34em and up)
+// @media (min-width: 34em)
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em)
+	.responsive
+		.vcenter_content
+			text-align: right
+	.blocks, .responsive, .multiBrand
+		+vcenter(30rem)
+
+	.blocksBg, .multiBrand
+		img
+			margin-left: 3em
+
+
+
+// Large devices (desktops, 62em and up)
+// @media (min-width: 62em)
+
+// Extra large devices (large desktops, 75em and up)
+//@media (min-width: 75em) { ... }
