@@ -6557,7 +6557,11 @@ blockquote a {
 
 .newsletter .titleProject {
   background: #2b2d29;
-  color: white;
+  color: #91968c;
+}
+
+.newsletter .titleProject small {
+  color: #5e625a;
 }
 
 .newsletter .titleProject h2 {
