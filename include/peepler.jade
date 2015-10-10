@@ -1,4 +1,17 @@
 section.proiect.peepler
+	.container-fluid.title
+		.container
+			.row
+				.col-xs-12.text-center
+					br
+					br
+					small.subtile one of my side projects & identity projects
+					h3
+						strong PEEPLER - looking behind an email address
+					p.lead
+						| Together with some of my Mediapro colleagues.
+						br
+						| We created this miniproject which brought us only sympathy :)
 	.heroImage
 		+picture("peepler", "peepler project", "1000", "800")
 	.container-fluid
@@ -12,15 +25,8 @@ section.proiect.peepler
 					.content
 						img.img-responsive(src="#{assetsPath}images/peepler_search.jpg" alt="First slide")
 						h5.small.text-center Lens, search concpet
-
-			.row
-				.col-xs-12
-					br
-					br
-					h3.text-center PEEPLER - looking behind an email address
-					p.lead.text-center Peepler was one of my side projects - together with some of my Mediapro colleagues.
-						br
-						small We created this project miniproject which brought us only sympathy :)
+				.clearfix
+			.row.tm3.projectDescriotion
 				.col-sm-2.col-md-1
 					svg(viewBox="0 0 100 100" width="100" height="100")
 						use(xlink:href="#vector" x="0" y="0")

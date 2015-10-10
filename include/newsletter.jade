@@ -35,16 +35,16 @@ section.proiect.newsletter
 	.blocksBg
 		.container
 			.row
-				.col-sm-12.col-md-6.blocks.pull-right
+				.col-sm-12.col-md-6.blocks.hidden-sm-up
 					.vcenter_content
 						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
 				.col-sm-12.col-md-6.blocks
 					.vcenter_content
-						h3 Brick - modules
+						h3.tm1 Brick - modules
 						p Easy to manipulate, this newsletter is designed modular. Each module has a verry whell structured configuration file.
 						hr
 						.row
-							.col-xs-6
+							.col-xs-12.col-sm-6
 								h5.small Brand configuration
 								p.small
 									| - color cheme
@@ -52,7 +52,7 @@ section.proiect.newsletter
 									| - menu items
 									br
 									| - social network links
-							.col-xs-6
+							.col-xs-12.col-sm-6
 								h5.small Message configuration
 								p.small
 									| - imported data product
@@ -61,26 +61,32 @@ section.proiect.newsletter
 									br
 									| - copy for any blocks
 						a(href="#") view documentation &#8594;
+				.col-sm-12.col-md-6.blocks.hidden-sm-down
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
 	.responsiveBg
 		.container
 			.row
-				.col-sm-12.col-md-6.responsive
+				.col-sm-12.col-md-6.responsive.hidden-sm-up
 					.vcenter_content
 						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
 				.col-sm-12.col-md-6.responsive.pull-right
 					.vcenter_content
-						h3 Responsive
+						h3.tm1 Responsive
 						p Having in mind the obsession of "responsibility", These blocks behave responsive for different resolutions.
 						a(href="#") view sample &#8594;
+				.col-sm-12.col-md-6.responsive.hidden-sm-down
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
 	.multiBrandBg
 		.container
 			.row
-				.col-sm-12.col-md-6.multiBrand.pull-right
+				.col-sm-12.col-md-6.multiBrand
 					.vcenter_content
 						img.img-responsive(src="#{assetsPath}images/newsletter03.jpg" alt="First slide")
 				.col-sm-12.col-md-6.multiBrand
 					.vcenter_content
-						h3 Multi brand
+						h3.tm1 Multi brand
 						p The data is taken directly from e-commerce site. It has been designed to be easily adapted for other brands (already has five color versions).
 						a(href="#") view on github &#8594;
 		//.container

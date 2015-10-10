@@ -16,31 +16,61 @@ mixin social(socialName, classHref, socialLink, copy, iconWidth)
 	li.text-center
 		a(href="#{socialLink}" class="#{classHref} text-hide")
 			svg(viewBox="0 0 #{iconWidth} #{iconWidth}" width="#{iconWidth}" height="#{iconWidth}")
-				use(xlink:href="#{socialName}" x="0" y="0")
+				use(xlink:href="#{socialName}")
 
 block contentPage
 	section.about
+		.container-fluid.gradientBg
+			.container
+				.row
+					.col-cs-12.col-sm-6
+						br
+						h1
+							| Hi, I'm Razvan
+						p (hard to pronunce but true)
+						h2
+							| UX , Interaction and graphic designer based in Milano
+						hr
+						p
+							| 15 years ago, toghether with a friend started to create websites.
+							| I do not know HTML, graduated in architecture and love to draw, this job fit me like a glove.
+							| Computer graphics I feel it gives me some freedom so I continued diligent, even if nowadays really use the analog world.
+							| I followed thereafter some HTML CSS classes that helped me enormously in my career. Nothing could stop me to advance in this field.
 		.container-fluid
 			.container
 				.row
-					.col-xs-6
-						//br
-						//h1
-						//	| Hi, I'm Razvan
-						//p (hard to pronunce but true)
-						//h2
-						//	| UX , Interaction and graphic designer based in Milano
-						//hr
-						//p
-						//	| 15 years ago, toghether with a friend started to create websites.
-						//	| I do not know HTML, graduated in architecture and love to draw, this job fit me like a glove.
-						//	| Computer graphics I feel it gives me some freedom so I continued diligent, even if nowadays really use the analog world.
-						//	| I followed thereafter some HTML CSS classes that helped me enormously in my career. Nothing could stop me to advance in this field.
-						//p To discover my passions you can watch me on:
+					.col-xs-12
+						svg(style="display: none")
+							include assets/images/social/socialIcon.svg
+						br
+						p To discover my passions you can follow me on:
+						ul.list-inline
+							li
+								a(href="https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
+									svg.iconSocial.behance(view="0 0 80 80")
+										use(xlink:href="#behanceIcon")
+							li
+								a(href="https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
+									svg.iconSocial.dribbble(view="0 0 80 80")
+										use(xlink:href="#dribbbleIcon")
+							li
+								a(href="https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
+									svg.iconSocial.linkedin(view="0 0 80 80")
+										use(xlink:href="#linkedinIcon")
+							li
+								a(href="http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
+									svg.iconSocial.slideshare(view="0 0 80 80")
+										use(xlink:href="#slideshareIcon")
+							li
+								a(href="https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
+									svg.iconSocial.twitter(view="0 0 80 80")
+										use(xlink:href="#twitterIcon")
+							li
+								a(href="https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
+									svg.iconSocial.google(view="0 0 80 80")
+										use(xlink:href="#googleIcon")
+							li
+								a(href="http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")
+									svg.iconSocial.thumblr(view="0 0 80 80")
+										use(xlink:href="#thumblrIcon")
 
-					.svgHide(style="display: none")
-						include assets/images/social/socialIcon.html
-					.linkedin
-						p sample
-						svg.linkedin(viewBox="0 0 100 100" width="100" height="100")
-							use(xlink:href="#linkedin" x="0" y="0")

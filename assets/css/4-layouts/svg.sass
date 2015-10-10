@@ -1,22 +1,98 @@
-.st0
-	stroke:#8CC63F
-	stroke-width:5
-	stroke-linecap:round
-	stroke-miterlimit:10
-.st1
-	stroke:#29ABE2
-	stroke-width:5
-	stroke-linecap:round
-	stroke-miterlimit:10
-.st2
-	stroke:#FF0000
-	stroke-width:5
-	stroke-linecap:round
-	stroke-miterlimit:10
-.st3
-	fill:#333333
-.st4
-	font-family: $font-family-heads
-	font-weight: 700
-.st5
-	font-size:40px
+// logo
+.logo
+	.st0
+		stroke: $solopx_accent01
+		stroke-width:5
+		stroke-linecap:round
+		stroke-miterlimit:10
+	.st1
+		stroke: $solopx_accent02
+		stroke-width:5
+		stroke-linecap:round
+		stroke-miterlimit:10
+	.st2
+		stroke: $solopx_accent03
+		stroke-width:5
+		stroke-linecap:round
+		stroke-miterlimit:10
+	.st3
+		fill:#333333
+	.st4
+		font-family: $font-family-heads
+		font-weight: 700
+	.st5
+		font-size:40px
+
+$facebookColor: #3b5998
+$googleColor: red
+$linkedinColor: #3b5998
+$twitterColor: #4099FF
+$thumblrColor: #35465c
+$behanceColor: #1769FF
+$dribbbleColor: #ea4c89
+$slideshareColor: #1191d0
+
+$strokeIconSocial: 4
+
+.facebook
+	border: 1px solid red
+
+.iconSocial
+	width: 80px
+	height: 80px
+
+#googleIcon
+	#google
+		fill: $googleColor
+	circle
+		fill-opacity: 0
+		stroke: lighten($googleColor, 45%)
+		stroke-width: $strokeIconSocial
+
+#linkedinIcon
+	#linkedin_1, #linkedin_2, #linkedin_3
+		fill: $linkedinColor		
+	#circle
+		fill-opacity: 0
+		stroke: lighten($linkedinColor, 50%)
+		stroke-width: $strokeIconSocial
+
+#twitterIcon
+	#twitter
+		fill: $twitterColor
+	circle
+		fill-opacity: 0
+		stroke: lighten($twitterColor, 30%)
+		stroke-width: $strokeIconSocial
+	
+#thumblrIcon
+	#thumblr
+		fill: $thumblrColor
+	circle
+		fill-opacity: 0
+		stroke: lighten($thumblrColor, 60%)
+		stroke-width: $strokeIconSocial
+
+#behanceIcon
+	#behance_1, #behance_2, #behance_3
+		fill: $behanceColor		
+	#circle
+		fill-opacity: 0
+		stroke: lighten($behanceColor, 40%)
+		stroke-width: $strokeIconSocial
+
+#dribbbleIcon
+	#dribbble_1, #dribbble_2, #dribbble_3
+		fill: $dribbbleColor		
+	#circle
+		fill-opacity: 0
+		stroke: lighten($dribbbleColor, 30%)
+		stroke-width: $strokeIconSocial
+
+#slideshareIcon
+	#slideshare_1, #slideshare_2, #slideshare_3
+		fill: $slideshareColor		
+	#circle
+		fill-opacity: 0
+		stroke: lighten($slideshareColor, 40%)
+		stroke-width: $strokeIconSocial

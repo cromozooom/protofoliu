@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
-<circle id="googleCircle" fill="none" cx="40" cy="40" r="34.917"/>
-<path id="g" d="M57.59,38.863H40.135v5.18h12.38c-0.612,7.263-6.654,10.361-12.359,10.361c-7.298,0-13.666-5.742-13.666-13.79
-	c0-7.84,6.071-13.878,13.682-13.878c5.872,0,9.333,3.744,9.333,3.744l3.627-3.756c0,0-4.655-5.182-13.145-5.182
-	c-10.811,0-19.174,9.124-19.174,18.98c0,9.657,7.867,19.074,19.45,19.074c10.187,0,17.644-6.979,17.644-17.298
-	c0-2.177-0.316-3.435-0.316-3.435L57.59,38.863z"/>
+	 viewBox="-9 11 80 80" style="enable-background:new -9 11 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<circle id="googleCircle" class="st0" cx="31" cy="51" r="34.9"/>
+<path id="g" d="M48.6,49.9H31.1V55h12.4c-0.6,7.3-6.7,10.4-12.4,10.4c-7.3,0-13.7-5.7-13.7-13.8c0-7.8,6.1-13.9,13.7-13.9
+	c5.9,0,9.3,3.7,9.3,3.7l3.6-3.8c0,0-4.7-5.2-13.1-5.2c-10.8,0-19.2,9.1-19.2,19c0,9.7,7.9,19.1,19.5,19.1c10.2,0,17.6-7,17.6-17.3
+	C48.9,51.1,48.6,49.9,48.6,49.9L48.6,49.9z"/>
 </svg>
