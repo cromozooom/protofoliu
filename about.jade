@@ -12,12 +12,11 @@ block navigation
 - pinterestLink = "#"
 - twitterLink = "#"
 
-mixin social(socialName, classHref, socialLink, copy, iconWidth)
-	li.text-center
-		a(href="#{socialLink}" class="#{classHref} text-hide")
-			svg(viewBox="0 0 #{iconWidth} #{iconWidth}" width="#{iconWidth}" height="#{iconWidth}")
-				use(xlink:href="#{socialName}")
-
+mixin socialIcon(socialID, iconWidth, socialLink)
+	li
+		a(href="#{socialLink}")
+			svg.iconSocial.behance(view="0 0 #{iconWidth} #{iconWidth}")
+				use(xlink:href="##{socialID}")
 block contentPage
 	section.about
 		.container-fluid.gradientBg
@@ -32,7 +31,7 @@ block contentPage
 						hr
 						p
 							| 15 years ago, toghether with a friend started to create websites.
-							| I do not know HTML, graduated in architecture and love to draw, this job fit me like a glove.
+							| I do not know verry whell HTML at that time, graduated in architecture and love to draw, I had a feel that this job fit me like a glove.
 							| Computer graphics I feel it gives me some freedom so I continued diligent, even if nowadays really use the analog world.
 							| I followed thereafter some HTML CSS classes that helped me enormously in my career. Nothing could stop me to advance in this field.
 		.container-fluid
@@ -44,32 +43,10 @@ block contentPage
 						br
 						p To discover my passions you can follow me on:
 						ul.list-inline
-							li
-								a(href="https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
-									svg.iconSocial.behance(view="0 0 80 80")
-										use(xlink:href="#behanceIcon")
-							li
-								a(href="https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
-									svg.iconSocial.dribbble(view="0 0 80 80")
-										use(xlink:href="#dribbbleIcon")
-							li
-								a(href="https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
-									svg.iconSocial.linkedin(view="0 0 80 80")
-										use(xlink:href="#linkedinIcon")
-							li
-								a(href="http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
-									svg.iconSocial.slideshare(view="0 0 80 80")
-										use(xlink:href="#slideshareIcon")
-							li
-								a(href="https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
-									svg.iconSocial.twitter(view="0 0 80 80")
-										use(xlink:href="#twitterIcon")
-							li
-								a(href="https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
-									svg.iconSocial.google(view="0 0 80 80")
-										use(xlink:href="#googleIcon")
-							li
-								a(href="http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")
-									svg.iconSocial.thumblr(view="0 0 80 80")
-										use(xlink:href="#thumblrIcon")
-
+							+socialIcon("behanceIcon", "80", "https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
+							+socialIcon("dribbbleIcon", "80", "https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
+							+socialIcon("linkedinIcon", "80", "https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
+							+socialIcon("slideshareIcon", "80", "http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
+							+socialIcon("twitterIcon", "80", "https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
+							+socialIcon("googleIcon", "80", "https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
+							+socialIcon("thumblrIcon", "80", "http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")
