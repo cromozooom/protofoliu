@@ -1,11 +1,11 @@
-// responsive picture Artiderction
+//- responsive picture Artiderction
 mixin picture(imgName, alt, huge, medium)
 	picture
 		source(srcset="#{assetsPath}images/#{imgName}_huge.jpg" media="(min-width: #{huge}px)")
 		source(srcset="#{assetsPath}images/#{imgName}_large.jpg" media="(min-width: #{medium}px)")
 		img.img-responsive(srcset="#{assetsPath}images/#{imgName}_small.jpg" alt="#{alt}")
 
-// navigation
+//- navigation
 mixin navItem(active, link, copy)
 	if active
 		li.nav-item(class="active")
@@ -13,3 +13,9 @@ mixin navItem(active, link, copy)
 	else
 		li.nav-item
 			a.nav-link(href="#{link}") #{copy}
+//- social Iconss
+mixin socialIcon(socialID, iconWidth, socialLink)
+	li
+		a(href="#{socialLink}")
+			svg.iconSocial.behance(view="0 0 #{iconWidth} #{iconWidth}")
+				use(xlink:href="##{socialID}")

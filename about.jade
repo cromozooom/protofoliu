@@ -2,27 +2,16 @@ extend include/template
 include include/mixin
 
 block navigation
-	+navItem(flase, "index.html", "HOME")
+	+navItem(false, "index.html", "HOME")
 	+navItem(true, "about.html", "ABOUT")
 
-- fBpageLink = "#"
-
-- instagramLink = "#"
-- thumblrLink = "#"
-- pinterestLink = "#"
-- twitterLink = "#"
-
-mixin socialIcon(socialID, iconWidth, socialLink)
-	li
-		a(href="#{socialLink}")
-			svg.iconSocial.behance(view="0 0 #{iconWidth} #{iconWidth}")
-				use(xlink:href="##{socialID}")
 block contentPage
 	section.about
 		.container-fluid.gradientBg
 			.container
 				.row
 					.col-cs-12.col-sm-6
+
 						br
 						h1
 							| Hi, I'm Nicu Razvan
@@ -30,23 +19,7 @@ block contentPage
 							| UX , Interaction and graphic designer based in Milano
 						hr
 						p
-							| 15 years ago, toghether with a friend started to create websites.
-							| I do not know verry whell HTML at that time, graduated in architecture and love to draw, I had a feel that this job fit me like a glove.
-							| Computer graphics I feel it gives me some freedom so I continued diligent, even if nowadays really use the analog world.
+							| 15 years ago, together with a friend I started to create websites.
+							| I do not know HTML codyng at that time. Graduated in architecture and love to draw, I had a feel that this job fit me like a glove.
+							| Computer graphics gives me some freedom so I continued diligent, even if nowadays really use the analog world.
 							| I followed thereafter some HTML CSS classes that helped me enormously in my career. Nothing could stop me to advance in this field.
-		.container-fluid
-			.container
-				.row
-					.col-xs-12
-						svg(style="display: none")
-							include assets/images/social/socialIcon.svg
-						br
-						p To discover my passions you can follow me on:
-						ul.list-inline
-							+socialIcon("behanceIcon", "80", "https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
-							+socialIcon("dribbbleIcon", "80", "https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
-							+socialIcon("linkedinIcon", "80", "https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
-							+socialIcon("slideshareIcon", "80", "http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
-							+socialIcon("twitterIcon", "80", "https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
-							+socialIcon("googleIcon", "80", "https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
-							+socialIcon("thumblrIcon", "80", "http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")

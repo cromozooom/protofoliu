@@ -1,7 +1,13 @@
 block primary
 	- var assetsPath = "assets/"
 
-- var title = "my site"
+block content
+	- var siteLink = "www.solopx.com"
+	- var author = "Nicu Razvan"
+	- var title = "Nicu Razvan - UX & Interaction Designer"
+	- var description = "2015 - Portfolio - UX and Interaction Designer based in Milan creating useful, usable and engaging digital experiences for the web and more..."
+
+include mixin
 
 doctype html
 html(lang="en")
@@ -10,11 +16,15 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		//- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-		meta(name="description" content="")
-		meta(name="author" content="")
+		meta(name="description" content="#{description}")
+		meta(name="author" content="#{author}")
 		link(rel="icon" href="#{assetsPath}favicon.ico")
 
+		//- google-site-verification
+		meta(name="google-site-verification" content="1G_pYA1mSJgviIfgLlTvwpJA6r7e84tCrvh5jjjcMZA")
 		title= title
+		meta(name="description" content="#{description}")
+		link(rel="canonical" href="#{siteLink}")
 
 		link(href="#{assetsPath}css/main.css" rel="stylesheet")
 		link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
@@ -22,9 +32,17 @@ html(lang="en")
 		// IE10 viewport hack for Surface/desktop Windows 8 bug
 		//- script(src="../../assets/js/ie10-viewport-bug-workaround.js")
 
-		// picturefill
+		//- picturefill
 		script document.createElement( "picture" );
 		script (src="#{assetsPath}js/picturefill.js")
+
+		//- social
+		meta(property="og:site_name" content="Nicu Razvan Portfolio - UX &amp; Interaction Designer ")
+		meta(property="og:title")
+		meta(property="og:url" content="www.solopx.com")
+		meta(property="og:type" content="website")
+		meta(property="og:description")
+		meta(property="og:image")
 
 	body
 		include svg
@@ -47,47 +65,29 @@ html(lang="en")
 
 		block contentPage
 
-
-			//section.proiect.bufnitaDinTei
-				img.img-responsive(src="#{assetsPath}images/slide02.jpg" alt="First slide")
-				.container-fluid
-					.container
-						.row
-							.col-sm-12
-								br
-								h3.text-center BoddyBank - review and new concept
-								p.lead.text-center It was a pleasure to play with the colors and basic shapes
-							.col-sm-1
-								svg(viewBox="0 0 100 100" width="100" height="100")
-									use(xlink:href="#vector" x="0" y="0")
-							.col-sm-5
-								h4
-									| New concept
-								p
-									| This project dedicated to children because the <strong>Owl from the linden</strong> is a private school dedicated to Art from Romania.
-									br
-									| In achieving identity, in fact a very simple concept, I used: Owl - teacher figure and diligent small hand of the children
-
-							.col-sm-1
-								svg(viewBox="0 0 100 100" width="100" height="100")
-									use(xlink:href="#webSite" x="0" y="0")
-							.col-sm-5
-								h4 Website
-								p
-									| The site on the other hand, gave me headaches as long as it had to do all the illustrations in the same style owl symbol.
-									| I leave you now to discover, the client presentation
-							.clearfix
-							.col-sm-5.col-sm-push-1
-								a.btn.btn-lg.btn-primary-outline(href="#") See logo presentation
-
-							.col-sm-5.col-sm-push-2
-								a.btn.btn-lg.btn-primary-outline(href="#") See website
-							.clearfix
+		block footer
+			.container-fluid.footer
+				.container
+					.row
+						.col-xs-12
+							svg(style="display: none")
+								include ../assets/images/social/socialIcon.svg
 							br
-							br
-							hr
+							p To discover my passions you can follow me on:
+							ul.list-inline
+								+socialIcon("behanceIcon", "80", "https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
+								+socialIcon("dribbbleIcon", "80", "https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
+								+socialIcon("linkedinIcon", "80", "https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
+								+socialIcon("slideshareIcon", "80", "http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
+								+socialIcon("googleIcon", "80", "https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
+								//- +socialIcon("twitterIcon", "80", "https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
+								//- +socialIcon("thumblrIcon", "80", "http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")
+							p
+								| You are free to contact me at:
+								<a href="mailto:cromozooom@gmail.com">cromozooom[at]gmail.com</a>
 
-
+		script
+			include analytics.js
 
 		//- Bootstrap core JavaScript
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
