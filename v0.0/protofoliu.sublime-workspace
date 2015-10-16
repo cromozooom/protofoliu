@@ -1,0 +1,1776 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-hide"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"col-",
+				"col-sm-push-"
+			],
+			[
+				"col",
+				"col-xs-push-"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"hi",
+				"hidden-xs"
+			],
+			[
+				"hide",
+				"hidden-xs"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"inlcude",
+				"include"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"ce",
+				"clearfix"
+			],
+			[
+				"pul",
+				"pull-right"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"cl",
+				"col-lg-"
+			],
+			[
+				"hid",
+				"hidden-md"
+			],
+			[
+				"hidd",
+				"hidden-sm"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"link",
+				"btn-link"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"btn-",
+				"btn-link"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"textr",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"re",
+				"img-responsive"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"bt",
+				"btn-group-lg"
+			],
+			[
+				"caps",
+				"small-caps"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"container",
+				"container-padding"
+			],
+			[
+				"fiorentina",
+				"fiorentinastore"
+			],
+			[
+				"un",
+				"unsubscribeLink"
+			],
+			[
+				"fiorenti",
+				"fiorentina"
+			],
+			[
+				"fior",
+				"fiorentina"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"hei",
+				"line-height"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"left",
+				"left-sidebar"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"coupno",
+				"COUPON"
+			],
+			[
+				"bg",
+				"bg-warning"
+			],
+			[
+				"im",
+				"img-responsive"
+			],
+			[
+				"lighte",
+				"lighten"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "include/newsletter.jade",
+			"settings":
+			{
+				"buffer_size": 6214,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/template.jade",
+			"settings":
+			{
+				"buffer_size": 4252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 194 files for \"Artiderction\"\n\n/Users/nicur/Documents/dev/git/protofoliu/about.html:\n    1  \n    2: <!-- responsive picture Artiderction-->\n    3  <!-- navigation-->\n    4  <!-- social Iconss--><!DOCTYPE html>\n\n/Users/nicur/Documents/dev/git/protofoliu/include/mixin.html:\n    1  \n    2: <!-- responsive picture Artiderction-->\n    3  <!-- navigation-->\n\n/Users/nicur/Documents/dev/git/protofoliu/include/mixin.jade:\n    1: // responsive picture Artiderction\n    2  mixin picture(imgName, alt, huge, medium)\n    3  	picture\n\n/Users/nicur/Documents/dev/git/protofoliu/include/template.html:\n    1  \n    2: <!-- responsive picture Artiderction-->\n    3  <!-- navigation-->\n    4  <!-- social Iconss--><!DOCTYPE html>\n\n/Users/nicur/Documents/dev/git/protofoliu/index.html:\n    1  \n    2: <!-- responsive picture Artiderction-->\n    3  <!-- navigation-->\n    4  <!-- social Iconss--><!DOCTYPE html>\n\n5 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 930,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "about.jade",
+			"settings":
+			{
+				"buffer_size": 868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/images/social/socialIcon.svg",
+			"settings":
+			{
+				"buffer_size": 6150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.jade",
+			"settings":
+			{
+				"buffer_size": 301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/4-layouts/svg.sass",
+			"settings":
+			{
+				"buffer_size": 1842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/3-sections/newsletter.sass",
+			"settings":
+			{
+				"buffer_size": 2640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/2-modules/socialList.sass",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".titleProject\n	padding-top: 2em",
+			"file": "assets/css/2-modules/titleProject.sass",
+			"file_size": 48,
+			"file_write_time": 130887012920000000,
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/main.sass",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "reom",
+		"selected_items":
+		[
+			[
+				"reom",
+				"Package Control: Remove Package"
+			],
+			[
+				"isn",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"dse",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 489.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nicur/Documents/dev/git/protofoliu",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social"
+	],
+	"file_history":
+	[
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/pages/header-home.php",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/linkedin.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/bufnitadintei.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/mixin.jade",
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/index.php",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/about.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/index.html",
+		"/Users/nicur/Documents/dev/git/protofoliu/index.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/about.html",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/2-modules/socialList.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/template.jade",
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/pages/footer.php",
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/index_.php",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/analytics.js",
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/scripts/google.php",
+		"/private/var/folders/jy/cnbxpcm12sj2w5h3trftvkx00000gn/T/d37a9e74-7a71-4e64-9844-17ea084f8d4a/home3/geneticr/www/solopx/index_.html",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/peepler.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/socialIcon.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/main.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/bufnitaDintei.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/2-modules/socialList.css",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/svg.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/about.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/logo.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/thumblr.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/twitter.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/slideshare.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/social/google.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/newsletter.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/1-base/colorProject.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/1-base/colorProject.css",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/peepler.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/brick.svg",
+		"/Users/nicur/Dropbox/project/_active/portfolio_2015/resource/brick.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/2-modules/blockquote.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/iCanCode.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/newsletter.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/README.md",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/0-tools/variables_.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/main.css",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/iCanCode.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/carousel.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/iCanCode.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/js/picturefill.min.js",
+		"/Users/nicur/Documents/dev/git/protofoliu/newsletter.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/newsletter.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/protofoliu",
+		"/Users/nicur/Documents/dev/git/Home-F4U/index.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadEN.jade",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadIT.jade",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadEN.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadIT.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/index.jade",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/iconServices.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/index.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/brand.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/brand_.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/less/variables_new.less",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/css/services.css",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/less/variables.less",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/endBodyScript.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/fast-shipping.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/head.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/24hpersonalize.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/analitycs.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/index.jade",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/all.html",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/include/couponAndGift.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/cart.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/payment.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/checkOut.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/js/bootstrap-sprockets.js",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/couponAndGift.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/include/resumeOrder.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/images/verySign.svg",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/js/bxSlider/mySlider.js",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/css/main.css",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/README.md",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/3-modules/cartProduct.sass",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/1-tools/bootstrap/_glyphicons.scss",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/1-tools/variables.scss",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/include/default/heroImage.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/cta.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/template/singleCTA.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/footer.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/preHeader.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/assets/fix/responsive.sass",
+		"/Users/nicur/Desktop/world.svg",
+		"/Users/nicur/Documents/dev/git/responsive-email/files/index.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/files/config.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/config.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells_fix.jade",
+		"/Users/nicur/Desktop/test.html",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells_fix.html",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlus.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/verona/color.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/index.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/path.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/verona/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/config.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cta.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/couponCode.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoProd/twoProd.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_prod.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/index.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlusTest.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlus/heroImagePlus.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/couponCode/couponCode.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/containerMail/containerMail.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/header/header.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/preHeader/preHeader.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoBanner.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoBanner/twoBanner.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/footer/footer.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/utils.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoProdTest.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/default/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_footer.jade"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/nicur/Documents/dev/git/protofoliu",
+			"/Users/nicur/Documents/dev/git/cart",
+			"/Users/nicur/Documents/dev/git/responsive-email/files",
+			"/Users/nicur/Documents/dev/git/gene-email",
+			"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets",
+			"/Users/nicur/Documents/dev/git/responsive-email/dev",
+			"/Users/nicur/Documents/dev/git/responsive-email",
+			"/Users/nicur/Documents/dev/git/responsive-email/dev",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email/v02",
+			"/Users/nicur/Dropbox/project/dev/bufnita/views/yamm",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email",
+			"/Users/nicur/Documents/dev/git/retail_store",
+			"/Users/nicur/Dropbox/project/dev/ptt/myPPTTheme",
+			"/Users/nicur/Dropbox/project/bkpEPI/epi/EPi",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email",
+			"/Users/nicur/Dropbox/project/pincelli/dev_pincelli/assets/css",
+			"/Users/nicur/Dropbox/project/pincelli/dev_pincelli",
+			"/Users/nicur/Dropbox/project/pincelli",
+			"/Users/nicur/Dropbox/project/_active/calcioshop/dev/calcioshopEmail",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda/css",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda/css/epi_olimpia",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"+socialIcon",
+			" fill",
+			"			",
+			"// ",
+			"Artiderction",
+			"- var",
+			"<meta",
+			".",
+			" Eu",
+			"fill=\"#ffffff\"",
+			"id=\"",
+			"class=\"fillIcon\"",
+			".linkedind",
+			"id=\"",
+			"id=\"path28_1_\"",
+			"path28_1_",
+			"#{iconWidth}",
+			"linkedind",
+			"text-hide",
+			".linkedind",
+			"$time",
+			"id=\"",
+			" id=\"",
+			"{width}",
+			"\"#\"",
+			"google",
+			"twitter",
+			"Twitter",
+			"twitter",
+			", .",
+			"+social",
+			"linkedind",
+			"twitter",
+			"google",
+			"thumblr",
+			"						include",
+			"//include",
+			"include",
+			"	",
+			"		",
+			"Link",
+			"#{",
+			"bufnitza",
+			"h3",
+			"| ...",
+			".col-xs-12",
+			"bufnitaReview",
+			"sm-4",
+			"bufnitza_",
+			"h5",
+			"h3 ",
+			"| -",
+			"-",
+			".",
+			"vcenter",
+			"@media",
+			";",
+			"col-md-6",
+			".col-sm-6",
+			"14rem",
+			";",
+			"SVGID_1_",
+			"Adobe_OpacityMaskFilter",
+			"btn-lg",
+			"sm-6.",
+			"bufnitza_primary",
+			"bufnitza_primary01",
+			"newsletter",
+			"primary-color-pr01",
+			"newsletter_custom",
+			"primary-color-pr01",
+			"$$bufnitza",
+			"primary-color-pr01",
+			"_custom",
+			".col-xs-12",
+			".col-sm-4",
+			".col-xs",
+			".col-sm-4",
+			"medium",
+			"					#",
+			"small",
+			"\"\"",
+			"examples/",
+			"#{assetsPath}",
+			"slide",
+			"examples/images/",
+			"  			",
+			"bufnitza_",
+			".png",
+			"680x700",
+			"hr",
+			"sm",
+			"\"#\"",
+			"6",
+			"4,",
+			"// ",
+			"//- ",
+			" banner",
+			"/ row",
+			"http://solopx.com",
+			"var",
+			"lang",
+			"=",
+			".png",
+			"\"assets/images/#",
+			"	//",
+			"//",
+			"3",
+			"()",
+			"3,",
+			"\"#\"",
+			"\"\"",
+			",",
+			"\">",
+			"id=\"",
+			"class=\"fillIcons\"",
+			"\"nike\"",
+			"//+",
+			"60px",
+			"//+",
+			"fill=\"red\"",
+			"class=\"fillColor\"",
+			"clip-rule=\"evenodd\"",
+			"fill-rule=\"evenodd\"",
+			"600",
+			"<path ",
+			"+bannerGrid",
+			")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'myPPTTheme'",
+			" _myPPTTheme",
+			"_myPPTTheme-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "include/newsletter.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3556,
+								3556
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 204.0,
+						"translation.y": 709.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "include/template.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2524,
+								2524
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 91.0,
+						"translation.y": 838.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 930,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										133,
+										145
+									],
+									[
+										321,
+										333
+									],
+									[
+										455,
+										467
+									],
+									[
+										638,
+										650
+									],
+									[
+										818,
+										830
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"default_dir": "/Users/nicur/Documents/dev/git/protofoliu",
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "about.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								868
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 194.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/images/social/socialIcon.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								670
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "assets/css/4-layouts/svg.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/css/3-sections/newsletter.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/css/2-modules/socialList.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/css/2-modules/titleProject.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "assets/css/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "protofoliu.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new",
+				"include/newsletter.jade"
+			],
+			[
+				"svg",
+				"assets/css/4-layouts/svg.sass"
+			],
+			[
+				"soci",
+				"assets/css/2-modules/socialList.sass"
+			],
+			[
+				"abo",
+				"assets/css/3-sections/about.sass"
+			],
+			[
+				"col",
+				"assets/css/1-base/colorProject.sass"
+			],
+			[
+				"ne",
+				"include/newsletter.jade"
+			],
+			[
+				"bu",
+				"include/bufnitadintei.jade"
+			],
+			[
+				"co",
+				"assets/css/1-base/colorProject.sass"
+			],
+			[
+				"ma",
+				"assets/css/main.sass"
+			],
+			[
+				"pee",
+				"assets/css/3-sections/peepler.sass"
+			],
+			[
+				"",
+				"assets/css/3-sections/newsletter.sass"
+			],
+			[
+				"mai",
+				"assets/css/main.sass"
+			],
+			[
+				"tot",
+				"include/total.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,14 @@
+include ../mixin/mixin
+include ../config/config
+doctype html
+html(lang="en")
+	include _head
+	body
+		include _svg
+		include _navigation
+
+		block contentPage
+
+		include _footer
+		include _footerScript
+

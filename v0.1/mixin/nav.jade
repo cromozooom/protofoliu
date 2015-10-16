@@ -1,0 +1,8 @@
+//- navigation
+mixin navItem(active, link, copy)
+	if active
+		li.nav-item(class="active")
+			a.nav-link(class="active disable" href="#{link}") #{copy}
+	else
+		li.nav-item
+			a.nav-link(href="#{link}") #{copy}
