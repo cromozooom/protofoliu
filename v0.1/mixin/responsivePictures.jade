@@ -1,6 +1,0 @@
-//- responsive picture Artiderction
-mixin picture(imgName, alt, huge, medium)
-    picture
-        source(srcset="#{assetsPath}images/#{imgName}_huge.jpg" media="(min-width: #{huge}px)")
-        source(srcset="#{assetsPath}images/#{imgName}_large.jpg" media="(min-width: #{medium}px)")
-        img.img-responsive(srcset="#{assetsPath}images/#{imgName}_small.jpg" alt="#{alt}")
