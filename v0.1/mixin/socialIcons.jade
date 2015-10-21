@@ -1,6 +1,6 @@
 //- social Iconss
-mixin socialIcon(socialID, iconWidth, socialLink)
+mixin socialIcon(socialID, socialLink)
 	li
 		a(href="#{socialLink}")
-			svg.iconSocial.behance(view="0 0 #{iconWidth} #{iconWidth}")
+			svg.iconSocial(view="0 0 50 50")
 				use(xlink:href="##{socialID}")

@@ -5885,26 +5885,26 @@ figure.effect-goliath p {
   font-size: 90%;
   opacity: 0;
   transition: all 0.35s;
-  -webkit-transform: translate(20%, -150%);
-  -ms-transform: translate(20%, -150%);
-      transform: translate(20%, -150%);
+  -webkit-transform: translate(20%, -100%);
+  -ms-transform: translate(20%, -100%);
+      transform: translate(20%, -100%);
 }
 figure.effect-goliath:hover img {
   -webkit-transform: translate(0, -40%);
   -ms-transform: translate(0, -40%);
       transform: translate(0, -40%);
-  opacity: 0;
+  opacity: 1;
 }
 figure.effect-goliath:hover h2 {
-  -webkit-transform: translate(0, -150%);
-  -ms-transform: translate(0, -150%);
-      transform: translate(0, -150%);
+  -webkit-transform: translate(0, -115%);
+  -ms-transform: translate(0, -115%);
+      transform: translate(0, -115%);
 }
 figure.effect-goliath:hover p {
   opacity: 1;
-  -webkit-transform: translate(0, -150%);
-  -ms-transform: translate(0, -150%);
-      transform: translate(0, -150%);
+  -webkit-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+      transform: translate(0, -100%);
 }
 
 figure.effect-goliath#pr01 {
@@ -5965,8 +5965,6 @@ figure.effect-goliath#pr03:hover p {
 }
 
 svg.icon {
-  width: 100px;
-  height: 100px;
   fill: black;
   fill-opacity: 0;
   display: block;
@@ -5977,24 +5975,59 @@ svg.icon #bg {
   fill: black;
   fill-opacity: 1;
 }
-
-svg #fill_01 {
+svg.icon #fill_01 {
   fill: #26add0;
   fill-opacity: 0;
   stroke: none;
 }
-svg #fill_02 {
+svg.icon #fill_02 {
   fill: #76CFE6;
   fill-opacity: 0;
   stroke: none;
 }
-svg #stroke_01 {
+svg.icon #stroke_01 {
   stroke: #1e89a5;
   stroke-width: 1;
 }
-svg #stroke_02 {
+svg.icon #stroke_02 {
   stroke: #1e89a5;
   stroke-width: 1;
+}
+
+svg.iconSocial {
+  width: 50px;
+  height: 50px;
+  fill: black;
+  fill-opacity: 0;
+  display: block;
+  stroke-width: 1;
+  stroke: black;
+}
+svg.iconSocial #fill_01 {
+  fill-opacity: 1;
+  stroke: none;
+}
+svg.iconSocial #stroke_01 {
+  stroke-width: 1;
+  fill-opacity: 0;
+}
+svg.iconSocial #iconBehance #fill_01 {
+  fill: #1769ff;
+}
+svg.iconSocial #iconBehance #stroke_01 {
+  stroke: #1769ff;
+}
+svg.iconSocial #iconDribbble #fill_01 {
+  fill: #ff0084;
+}
+svg.iconSocial #iconDribbble #stroke_01 {
+  stroke: #ff0084;
+}
+svg.iconSocial #iconlinkedin #fill_01 {
+  fill: #007bb5;
+}
+svg.iconSocial #iconlinkedin #stroke_01 {
+  stroke: #007bb5;
 }
 
 #bufnitaDinTei h3 {
@@ -6033,6 +6066,10 @@ svg #stroke_02 {
 .skils {
   background: #dafbff;
 }
+.skils .icon {
+  width: 100px;
+  heignt: 100px;
+}
 .skils h5 {
   padding: 1rem 0 1rem 0;
   clear: both;
@@ -6044,15 +6081,6 @@ svg #stroke_02 {
   border: 0px;
   border-radius: 0;
   background: transparent;
-}
-.skils .icon {
-  margin: 0 auto;
-  float: left;
-  display: block;
-  width: 150px;
-}
-.skils .icon .bg {
-  fill: red;
 }
 
 li.list-group-item.graphinc {
