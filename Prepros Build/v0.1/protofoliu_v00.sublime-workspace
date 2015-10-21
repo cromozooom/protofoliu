@@ -1,0 +1,773 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"col-",
+				"col-sm-push-"
+			],
+			[
+				"col",
+				"col-xs-push-"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"hi",
+				"hidden-xs"
+			],
+			[
+				"hide",
+				"hidden-xs"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"inlcude",
+				"include"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"ce",
+				"clearfix"
+			],
+			[
+				"pul",
+				"pull-right"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"cl",
+				"col-lg-"
+			],
+			[
+				"hid",
+				"hidden-md"
+			],
+			[
+				"hidd",
+				"hidden-sm"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"link",
+				"btn-link"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"btn-",
+				"btn-link"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"textr",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"re",
+				"img-responsive"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"bt",
+				"btn-group-lg"
+			],
+			[
+				"caps",
+				"small-caps"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"container",
+				"container-padding"
+			],
+			[
+				"fiorentina",
+				"fiorentinastore"
+			],
+			[
+				"un",
+				"unsubscribeLink"
+			],
+			[
+				"fiorenti",
+				"fiorentina"
+			],
+			[
+				"fior",
+				"fiorentina"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"hei",
+				"line-height"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"left",
+				"left-sidebar"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"coupno",
+				"COUPON"
+			],
+			[
+				"bg",
+				"bg-warning"
+			],
+			[
+				"im",
+				"img-responsive"
+			],
+			[
+				"lighte",
+				"lighten"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "de",
+		"selected_items":
+		[
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"dse",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nicur/Documents/dev/git/portofoliu_02"
+	],
+	"file_history":
+	[
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/1-base/colorProject.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/1-base/colorProject.css",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/peepler.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/index.html",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/images/brick.svg",
+		"/Users/nicur/Dropbox/project/_active/portfolio_2015/resource/brick.svg",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/2-modules/blockquote.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/mixin.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/about.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/iCanCode.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/bufnitadintei.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/template.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/index.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/about.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/main.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/newsletter.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/newsletter.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/README.md",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/0-tools/variables_.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/main.css",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/iCanCode.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/bufnitaDintei.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/include/carousel.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/css/3-sections/iCanCode.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/assets/js/picturefill.min.js",
+		"/Users/nicur/Documents/dev/git/protofoliu/newsletter.sass",
+		"/Users/nicur/Documents/dev/git/protofoliu/newsletter.jade",
+		"/Users/nicur/Documents/dev/git/protofoliu/protofoliu",
+		"/Users/nicur/Documents/dev/git/Home-F4U/index.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadEN.jade",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadIT.jade",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadEN.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/uploadIT.html",
+		"/Users/nicur/Documents/dev/git/Home-F4U/index.jade",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/iconServices.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/index.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/brand.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/brand_.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/less/variables_new.less",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/css/services.css",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/assets/less/variables.less",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/endBodyScript.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/fast-shipping.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/head.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/svg/24hpersonalize.svg",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/analitycs.html",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/index.jade",
+		"/Users/nicur/Documents/f4u_layout/devHomeF4U/include/all.html",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/include/couponAndGift.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/cart.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/payment.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/checkOut.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/js/bootstrap-sprockets.js",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/couponAndGift.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/include/resumeOrder.jade",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/images/verySign.svg",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/js/bxSlider/mySlider.js",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/assets/css/main.css",
+		"/Users/nicur/Documents/dev/git/responsive-cart-component/README.md",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/3-modules/cartProduct.sass",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/1-tools/bootstrap/_glyphicons.scss",
+		"/Users/nicur/Documents/dev/git/cart/assets/css/1-tools/variables.scss",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/include/default/heroImage.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/cta.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/template/singleCTA.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/footer.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/views/preHeader.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/assets/fix/responsive.sass",
+		"/Users/nicur/Desktop/world.svg",
+		"/Users/nicur/Documents/dev/git/responsive-email/files/index.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/files/config.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/config.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells_fix.jade",
+		"/Users/nicur/Desktop/test.html",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells_fix.html",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlus.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/verona/color.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/index.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/path.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/verona/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/config.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cta.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/couponCode.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoProd/twoProd.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_prod.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/index.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fiorentina/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlusTest.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/heroImagePlus/heroImagePlus.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/fir/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/couponCode/couponCode.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/containerMail/containerMail.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/color.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/header/header.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/preHeader/preHeader.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoBanner.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoBanner/twoBanner.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/footer/footer.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/lazio/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_cells.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/utils.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/views/twoProdTest.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/default/content.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/template/_footer.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/default/ThemeConfig.jade",
+		"/Users/nicur/Documents/dev/git/gene-email/config/default/color.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/includeDev/fir/heroImage.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/index_fir.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/README.md",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/includeDev/fir/3prodA.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/includeDev/fir/3prodB.jade",
+		"/Users/nicur/Documents/dev/git/responsive-email/dev/includeDev/fir/2prod.jade",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/myStyle.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/home/section/menu.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/home/section.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/home/section/concept.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/include/sectionConcept.jade",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/include/sectionMenu.jade",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/modules/tipography/tipography.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/customVariables.sass",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/index.jade",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/index.html",
+		"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets/css/header.sass"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/nicur/Documents/dev/git/cart",
+			"/Users/nicur/Documents/dev/git/responsive-email/files",
+			"/Users/nicur/Documents/dev/git/gene-email",
+			"/Users/nicur/Documents/dev/git/afp/dev_afp_02/site/assets",
+			"/Users/nicur/Documents/dev/git/responsive-email/dev",
+			"/Users/nicur/Documents/dev/git/responsive-email",
+			"/Users/nicur/Documents/dev/git/responsive-email/dev",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email/v02",
+			"/Users/nicur/Dropbox/project/dev/bufnita/views/yamm",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email",
+			"/Users/nicur/Documents/dev/git/retail_store",
+			"/Users/nicur/Dropbox/project/dev/ptt/myPPTTheme",
+			"/Users/nicur/Dropbox/project/bkpEPI/epi/EPi",
+			"/Users/nicur/Dropbox/project/bkpEPI/antwort-master/responsive-email",
+			"/Users/nicur/Dropbox/project/pincelli/dev_pincelli/assets/css",
+			"/Users/nicur/Dropbox/project/pincelli/dev_pincelli",
+			"/Users/nicur/Dropbox/project/pincelli",
+			"/Users/nicur/Dropbox/project/_active/calcioshop/dev/calcioshopEmail",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda/css",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin/frontend/legenda/css/epi_olimpia",
+			"/Users/nicur/Documents/puff/olimpia_puff/skin",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bufnitza",
+			"h3",
+			"| ...",
+			".col-xs-12",
+			"bufnitaReview",
+			"sm-4",
+			"bufnitza_",
+			"h5",
+			"h3 ",
+			"| -",
+			"-",
+			".",
+			"vcenter",
+			"@media",
+			";",
+			"col-md-6",
+			".col-sm-6",
+			"14rem",
+			";",
+			"SVGID_1_",
+			"Adobe_OpacityMaskFilter",
+			"btn-lg",
+			"sm-6.",
+			"bufnitza_primary",
+			"bufnitza_primary01",
+			"newsletter",
+			"primary-color-pr01",
+			"newsletter_custom",
+			"primary-color-pr01",
+			"$$bufnitza",
+			"primary-color-pr01",
+			"_custom",
+			".col-xs-12",
+			".col-sm-4",
+			".col-xs",
+			".col-sm-4",
+			"medium",
+			"					#",
+			"small",
+			"\"\"",
+			"examples/",
+			"#{assetsPath}",
+			"slide",
+			"examples/images/",
+			"  			",
+			"bufnitza_",
+			".png",
+			"680x700",
+			"hr",
+			"sm",
+			"\"#\"",
+			"6",
+			"4,",
+			"// ",
+			"//- ",
+			" banner",
+			"/ row",
+			"http://solopx.com",
+			"var",
+			"lang",
+			"=",
+			".png",
+			"\"assets/images/#",
+			"	//",
+			"//",
+			"3",
+			"()",
+			"3,",
+			"\"#\"",
+			"\"\"",
+			",",
+			"\">",
+			"id=\"",
+			"class=\"fillIcons\"",
+			"\"nike\"",
+			"//+",
+			"60px",
+			"//+",
+			"fill=\"red\"",
+			"class=\"fillColor\"",
+			"clip-rule=\"evenodd\"",
+			"fill-rule=\"evenodd\"",
+			"600",
+			"<path ",
+			"+bannerGrid",
+			")",
+			"display=\"inline\"",
+			"</g>",
+			" display=\"none\"",
+			"\n</g>",
+			"<g ",
+			"// ",
+			"6,",
+			"\"\"",
+			"€",
+			"false",
+			"accessori-outlet.png",
+			"3,",
+			"banner.png",
+			"faklse",
+			")",
+			"red",
+			".5em",
+			"; ",
+			"//@import",
+			" \"100\")",
+			"#{size}",
+			"40px",
+			"100",
+			"block",
+			"iconServices(",
+			"100",
+			"color: white",
+			"h4",
+			".iconServices",
+			"svg(",
+			" fill=\"#231F20\"",
+			"script(",
+			"//@import",
+			"@import",
+			"150",
+			" 150",
+			" y=\"0\")",
+			"xmlns:xlink=\"http://www.w3.org/1999/xlink\" ",
+			"svg ",
+			"100",
+			"h3 ",
+			"231F20"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'myPPTTheme'",
+			" _myPPTTheme",
+			"_myPPTTheme-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "protofoliu_v00.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"col",
+				"assets/css/1-base/colorProject.sass"
+			],
+			[
+				"ne",
+				"include/newsletter.jade"
+			],
+			[
+				"bu",
+				"include/bufnitadintei.jade"
+			],
+			[
+				"co",
+				"assets/css/1-base/colorProject.sass"
+			],
+			[
+				"ma",
+				"assets/css/main.sass"
+			],
+			[
+				"pee",
+				"assets/css/3-sections/peepler.sass"
+			],
+			[
+				"",
+				"assets/css/3-sections/newsletter.sass"
+			],
+			[
+				"mai",
+				"assets/css/main.sass"
+			],
+			[
+				"tot",
+				"include/total.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

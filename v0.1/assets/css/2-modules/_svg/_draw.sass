@@ -1,0 +1,51 @@
+
+// stroke: "color"
+// stroke-width:  "weight"
+// stroke-linecap: "butt, round, square"
+// stroke-dasharray: "5,5"
+// fill: slategrey;
+
+$primaryIconColor: #76CFE6
+$secondaryIconColor: #33B58A
+
+$accent01IconColor: #FEE000
+
+
+//#ED2224
+//#76CFE6
+//#FEE000
+//#33B58A
+
+.sampleSvg
+	svg
+		margin: 0 auto
+		text-align: center
+
+svg.icon
+	width: 100px
+	height: 100px
+	// fil
+	fill: black
+	fill-opacity:  0
+	display: block
+	//.line
+	stroke-width: 1
+	stroke: black
+	#bg
+		fill: black
+		fill-opacity:  1
+svg
+	#fill_01
+		fill: darken($primaryIconColor, 20%)
+		fill-opacity:  0
+		stroke: none
+	#fill_02
+		fill: $primaryIconColor
+		fill-opacity:  0
+		stroke: none
+	#stroke_01
+		stroke: darken($primaryIconColor, 30%)
+		stroke-width: 1
+	#stroke_02
+		stroke: darken($primaryIconColor, 30%)
+		stroke-width: 1

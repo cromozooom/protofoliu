@@ -1,0 +1,24 @@
+<symbol id="iconVectorIllustrator" viewBox="0 0 50 50">
+	<title>vectorIllustrator</title>
+  	<desc>pen illustrator</desc>
+	<g id="fill_02">
+		<rect x="22.338" y="16.06" width="5.324" height="5.324"/>
+	</g>
+	<g id="fill_01">
+		<circle cx="39.583" cy="33.144" r="2.917"/>
+		<circle cx="10.417" cy="33.144" r="2.917"/>
+		<circle cx="39.583" cy="18.744" r="2.917"/>
+		<circle cx="10.417" cy="18.744" r="2.917"/>
+	</g>
+	<rect id="stroke_02" x="22.338" y="16.06" width="5.324" height="5.324"/>
+	<g id="stroke_01">
+		<line x1="13.333" y1="18.722" x2="22.338" y2="18.722"/>
+		<line x1="27.662" y1="18.722" x2="36.667" y2="18.722"/>
+		<path d="M39.252,30.261c-1.221-5.732-5.801-10.216-11.59-11.285"/>
+		<path d="M10.748,30.261c1.221-5.732,5.801-10.216,11.59-11.285"/>
+		<circle cx="39.583" cy="33.144" r="2.917"/>
+		<circle cx="10.417" cy="33.144" r="2.917"/>
+		<circle cx="39.583" cy="18.744" r="2.917"/>
+		<circle cx="10.417" cy="18.744" r="2.917"/>
+	</g>
+</symbol>

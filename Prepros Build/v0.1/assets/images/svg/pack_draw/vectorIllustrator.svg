@@ -1,0 +1,13 @@
+<symbol id="vectorIllustrator" viewBox="0 0 50 50">
+	<title>vectorIllustrator</title>
+  	<desc>pen illustrator</desc>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="39.583" cy="33.144" r="2.917"/>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="10.417" cy="33.144" r="2.917"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="13.333" y1="18.722" x2="22.338" y2="18.722"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="27.662" y1="18.722" x2="36.667" y2="18.722"/>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="39.583" cy="18.744" r="2.917"/>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="10.417" cy="18.744" r="2.917"/>
+	<rect x="22.338" y="16.06" fill="none" stroke="#000000" stroke-miterlimit="10" width="5.324" height="5.324"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M39.252,30.261c-1.221-5.732-5.801-10.216-11.59-11.285"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.748,30.261c1.221-5.732,5.801-10.216,11.59-11.285"/>
+</symbol>
