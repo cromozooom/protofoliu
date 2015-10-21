@@ -2,14 +2,14 @@
 	.container
 		.row
 			.col-xs-12
-				//svg.socialIcon()
-				svg.iconSocial(style="display: none")
-					include ../assets/images/svg/social/social
 				br
 				p
 					| You are free to contact me at:
 					<a href="mailto:cromozooom@gmail.com">cromozooom[at]gmail.com</a>
 					| or can follow me on:
+				svg(style="display: none;").icon.iconSocial
+					include ../assets/images/svg/_social
+				
 				ul.list-inline
 					+socialIcon("iconBehance", "https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
 					+socialIcon("iconDribbble", "https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")

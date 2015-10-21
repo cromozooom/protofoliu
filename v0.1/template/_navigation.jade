@@ -16,9 +16,9 @@
 			.col-xs-12
 				block navigationMenu
 		.clearfix
-
-//- .container-fluid
 nav.navbar
+	svg(style="display: none;")
+		include ../assets/images/svg/_id
 	a.navbar-brand(href="index.html")
 		// desktop logo
 		svg.logoDesk
@@ -29,3 +29,4 @@ nav.navbar
 
 	button.navbar-toggler.pull-right.hidden-md-up(type="button" data-toggle="collapse" data-target="#slideMenu") Menu
 	button.navbar-toggler.pull-right.hidden-sm-down(type="button" data-toggle="collapse" data-target="#slideMenu") Menu &#9776;
+.clearfix
