@@ -1,0 +1,94 @@
+block primary
+	- var assetsPath = "assets/"
+
+block content
+	- var siteLink = "www.solopx.com"
+	- var author = "Nicu Razvan"
+	- var title = "Nicu Razvan - UX & Interaction Designer"
+	- var description = "2015 - Portfolio - UX and Interaction Designer based in Milan creating useful, usable and engaging digital experiences for the web and more..."
+
+include mixin
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		//- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+		meta(name="description" content="#{description}")
+		meta(name="author" content="#{author}")
+		link(rel="icon" href="#{assetsPath}favicon.ico")
+
+		//- google-site-verification
+		meta(name="google-site-verification" content="1G_pYA1mSJgviIfgLlTvwpJA6r7e84tCrvh5jjjcMZA")
+		title= title
+		meta(name="description" content="#{description}")
+		link(rel="canonical" href="#{siteLink}")
+
+		link(href="#{assetsPath}css/main.css" rel="stylesheet")
+		link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
+
+		// IE10 viewport hack for Surface/desktop Windows 8 bug
+		//- script(src="../../assets/js/ie10-viewport-bug-workaround.js")
+
+		//- picturefill
+		script document.createElement( "picture" );
+		script (src="#{assetsPath}js/picturefill.js")
+
+		//- social
+		meta(property="og:site_name" content="Nicu Razvan Portfolio - UX &amp; Interaction Designer ")
+		meta(property="og:title")
+		meta(property="og:url" content="www.solopx.com")
+		meta(property="og:type" content="website")
+		meta(property="og:description")
+		meta(property="og:image")
+
+	body
+		include svg
+		.collapse#myMenu
+			ul.nav.navbar-nav.pull-right
+				block navigation
+			.clearfix
+
+		//.container-fluid
+		nav.navbar
+			a.navbar-brand(href="index.html")
+				svg(viewBox="0 0 175 28" width="188" height="30")
+					use(xlink:href="#logo" x="0" y="0")
+			//- a.navbar-brand.navbar-toggler(type="button" data-toggle="collapse" data-target="#myMenu")
+				svg(viewBox="0 0 175 28" width="175" height="28")
+					use(xlink:href="#logo" x="0" y="0")
+
+			button.navbar-toggler.pull-right.hidden-md-up(type="button" data-toggle="collapse" data-target="#myMenu") menu
+			button.navbar-toggler.pull-right.hidden-sm-down(type="button" data-toggle="collapse" data-target="#myMenu") menu &#9776;
+
+		block contentPage
+
+		block footer
+			.container-fluid.footer
+				.container
+					.row
+						.col-xs-12
+							svg(style="display: none")
+								include ../assets/images/social/socialIcon.svg
+							br
+							p To discover my passions you can follow me on:
+							ul.list-inline
+								+socialIcon("behanceIcon", "80", "https://www.behance.net/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=behance&utm_campaign=cvpublication")
+								+socialIcon("dribbbleIcon", "80", "https://dribbble.com/solopx?utm_source=solopx.com&utm_medium=portofoliu&utm_content=dribble&utm_campaign=cvpublication")
+								+socialIcon("linkedinIcon", "80", "https://it.linkedin.com/in/razvanicu?utm_source=solopx.com&utm_medium=portofoliu&utm_content=linkedin&utm_campaign=cvpublication")
+								+socialIcon("slideshareIcon", "80", "http://www.slideshare.net/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=slideshare&utm_campaign=cvpublication")
+								+socialIcon("googleIcon", "80", "https://plus.google.com/+NicuRazvanGabriel/about?utm_source=solopx.com&utm_medium=portofoliu&utm_content=googleplus&utm_campaign=cvpublication")
+								//- +socialIcon("twitterIcon", "80", "https://twitter.com/cromozooom?utm_source=solopx.com&utm_medium=portofoliu&utm_content=twitter&utm_campaign=cvpublication")
+								//- +socialIcon("thumblrIcon", "80", "http://solopx.tumblr.com/?utm_source=solopx.com&utm_medium=portofoliu&utm_content=thumblr&utm_campaign=cvpublication")
+							p
+								| You are free to contact me at:
+								<a href="mailto:cromozooom@gmail.com">cromozooom[at]gmail.com</a>
+
+		script
+			include analytics.js
+
+		//- Bootstrap core JavaScript
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+		script(src="#{assetsPath}js/bootstrap.min.js")

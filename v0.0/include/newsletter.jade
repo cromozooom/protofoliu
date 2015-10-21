@@ -1,0 +1,154 @@
+section.proiect.newsletter
+	.titleProject
+		.container
+			.row
+				.col-sm-12.text-center
+					small after 15 years of searching
+					h2 Responsive email - top speed workflow
+					p.lead I finally found the solution: <strong>JADE template language</strong> :)
+	.heroImage
+		+picture("slide02", "bufnita din tei project by solopx", "1000", "800")
+	br
+	.container
+		.row
+			.col-sm-1
+				svg(viewBox="0 0 100 100" width="100" height="100")
+					use(xlink:href="#vector" x="0" y="0")
+			.col-sm-5
+				h4
+					| <strong>80%</strong> less time
+				p
+					| With Google sheet, I extracted <strong>"LIVE"</strong> product data, without any little help from programmers :)
+					br
+					| I created spreadshets to directly export the configuration files for product blocks.
+					| In this way development time decreased by <strong>more than 80%</strong>.
+			.col-sm-1
+				svg(viewBox="0 0 100 100" width="100" height="100")
+					use(xlink:href="#webSite" x="0" y="0")
+			.col-sm-5
+				h4 More than 5 brand
+				p
+					//- The same workflow for more than 5 brands: Fiorentina, Lazio, F4U, FIR, Djokovic used the same configuration file.
+					| The same workflow for more than 5 brands who use the same configuration file.
+					| In a few simple steps marcheting team succeeds to create more than 2 newsletters per day ;)
+					br
+					| They take care much more NOW on our content offers...
+	.blocksBg
+		.container
+			.row
+				.col-sm-12.col-md-6.blocks.hidden-sm-up
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
+				.col-sm-12.col-md-6.blocks
+					.vcenter_content
+						h3.tm1 Brick - modules
+						p Easy to manipulate, this newsletter is designed modular. Each module has a verry whell structured configuration file.
+						hr
+						.row
+							.col-xs-12.col-sm-6
+								h5.small Brand configuration
+								p.small
+									| - color cheme
+									br
+									| - menu items
+									br
+									| - social network links
+							.col-xs-12.col-sm-6
+								h5.small Message configuration
+								p.small
+									| - imported data product
+									br
+									| - traking code
+									br
+									| - copy for any blocks
+						a(href="https://github.com/cromozooom/responsive-email") view documentation &#8594;
+				.col-sm-12.col-md-6.blocks.hidden-sm-down
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
+	.responsiveBg
+		.container
+			.row
+				.col-sm-12.col-md-6.responsive.hidden-sm-up
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
+				.col-sm-12.col-md-6.responsive.pull-right
+					.vcenter_content
+						h3.tm1 Responsive
+						p Having in mind the obsession of "responsibility", These blocks behave responsive for different resolutions.
+						a(href="https://rawgit.com/cromozooom/responsive-email/master/dev/index_f4u.html") view sample &#8594;
+				.col-sm-12.col-md-6.responsive.hidden-sm-down
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
+	.multiBrandBg
+		.container
+			.row
+				.col-sm-12.col-md-6.responsive.hidden-sm-up
+					img.img-responsive(src="#{assetsPath}images/newsletter03.jpg" alt="First slide")
+				.col-sm-12.col-md-6.multiBrand
+					.vcenter_content
+						h3.tm1 Multi brand
+						p The data is taken directly from e-commerce site. It has been designed to be easily adapted for other brands (already has five color versions).
+						a(href="https://github.com/cromozooom/responsive-email") view on github &#8594;
+				.col-sm-12.col-md-6.blocks.hidden-sm-down
+					.vcenter_content
+						img.img-responsive(src="#{assetsPath}images/newsletter03.jpg" alt="First slide")
+		//.container
+			.row.thumbProject
+				.col-sm-12.col-md-4.thumb01
+					.content
+						img.img-responsive(src="#{assetsPath}images/newsletter01.jpg" alt="First slide")
+						h5.small Brick - modules
+						p Easy to manipulate, this newsletter is designed modular. Each module has a verry whell structured configuration file.
+						a(href="#") view documentation &#8594;
+				.col-sm-12.col-md-4.thumb02
+					.content
+						img.img-responsive(src="#{assetsPath}images/newsletter02.jpg" alt="First slide")
+						h5.small Responsive
+						p Having in mind the obsession of "responsibility", These blocks behave responsive for different resolutions.
+						a(href="#") view sample &#8594;
+				.col-sm-12.col-md-4.thumb03
+					.content
+						img.img-responsive(src="#{assetsPath}images/newsletter03.jpg" alt="First slide")
+						h5.small Multi brand
+						p The data is taken directly from e-commerce site. It has been designed to be easily adapted for other brands (already has five color versions).
+						a(href="#") view on github &#8594;
+
+				//-
+					.clearfix
+					br
+					br
+					.col-xs-1
+						svg(viewBox="0 0 100 100" width="100" height="100")
+							use(xlink:href="#quote" x="0" y="0")
+					.col-xs-11
+						p.small.blockquoteTitle Take a look at what the customer said
+						blockquote
+							p
+								| "So, working with Razvan was a … very good strategic decision!
+								br
+								| Behind that keyboard a veritable artist transpose your thought in a clearer concept, illuminating your representation!"
+
+							hr
+							.collapse#newsletterReview
+								//.card.card-block
+								h5.text-uppercase "Strategic decisions are crucial in business:
+								p
+									br
+									| It doesn’t matter how much equity you have or how trained is your stuff, if you took a single wrong strategic decision.
+									| The market will ultimately decide!
+									| How do you think the market reacted in my case?
+									br
+									h4: strong 100% good & very good reviews!
+									br
+									| So, working with Razvan was a … very good strategic decision!
+									br
+									| Behind that keyboard a veritable artist transpose your thought in a clearer concept, illuminating your representation!"
+							a.small(data-toggle="collapse" href="#newsletterReview" aria-expanded="false" aria-controls="collapseExample") view all review
+							br
+							br
+							footer
+								| - the client
+								cite(title="Source Title") Necula Razvan
+				.clearfix
+				br
+				hr

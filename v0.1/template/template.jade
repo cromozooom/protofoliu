@@ -1,0 +1,19 @@
+include ../mixin/mixin
+include ../config/config
+doctype html
+html(lang="en")
+	include _head
+	body
+		//
+		//
+		//
+		//svg(style="display: none;")
+		svg
+			include ../assets/images/svg/icons.svg
+		include _navigation
+
+		block contentPage
+
+		include _footer
+		include _footerScript
+

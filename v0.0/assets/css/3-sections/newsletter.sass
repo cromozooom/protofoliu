@@ -1,0 +1,153 @@
+=vcenter($height)
+	position: relative
+	height: $height
+	.vcenter_content
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+	.vcenter_content.center
+		margin: 0 auto
+	img
+		max-height: $height
+
+
+.blocksBg
+	background: $newsletter_accent05
+	a
+		color: $newsletter_accent03
+
+.responsiveBg
+	background: $newsletter_accent03
+	p
+		color: $newsletter_accent04
+	a, h3
+		color: $newsletter_accent05
+
+.multiBrandBg
+	background: $newsletter_accent06
+	h3
+		color: white
+	a
+		color: $newsletter_accent03
+
+.blocksBg, .responsiveBg, .multiBrandBg
+	padding-bottom: 1em
+	overflow: hidden
+	display: block
+	width: 100%
+
+	img
+		max-height: 14vh
+.newsletter
+	.titleProject
+			background: $newsletter_primary
+			color: lighten($newsletter_primary, 40%)
+			small
+				color: lighten($newsletter_primary, 20%)
+			h2
+				color: $newsletter_accent01
+
+
+	.blockquoteTitle, cite
+		color: $newsletter_accent03
+
+	blockquote
+		span
+			font-size: 15rem
+			font-family: serif
+			display: block
+			background: red
+			margin-top: -10rem
+		a
+			color: $newsletter_accent03
+
+	.heroImage
+		background: $newsletter_primary
+		width: 100%
+		overflow: hidden
+		img
+			margin: 0 auto
+	a.btn.btn-primary-outline
+		border-color: $newsletter_primary
+		color: $newsletter_primary
+		&:hover
+			background:  $newsletter_primary
+			color: lighten($newsletter_primary, 70%)
+
+	svg
+		max-width: 60px
+		fill:$newsletter_accent03
+	.lead
+		margin-bottom: 4em
+	.cta
+		margin-top: 4em
+
+	.thumbProject
+		margin-top: -5em
+
+	.content
+		padding:  1rem 2rem
+		h5, p
+			padding: 0.5rem 0
+		h5
+			font-family: $font-family-heads
+		p
+			font-size: .8rem
+		a
+			font-family: $font-family-heads
+			text-decoration: none
+			font-size: .8rem
+			font-weight: 700
+
+	.thumb01
+		.content
+			background: $newsletter_accent05
+			h5
+				color: $newsletter_accent01
+			p
+				color: $newsletter_primary
+			a
+				color: black
+
+	.thumb02
+		.content
+			background: $newsletter_accent03
+			h5
+				color: $newsletter_accent01
+			p
+				color: darken(white, 40% )
+			a
+				color: $newsletter_accent01
+
+	.thumb03
+		.content
+			background: $newsletter_accent06
+			h5
+				color: darken(white, 90% )
+			p
+				color: darken(white, 90% )
+			a
+				color: white
+
+// Small devices (landscape phones, 34em and up)
+// @media (min-width: 34em)
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em)
+	.responsive
+		.vcenter_content
+			text-align: right
+	.blocks, .responsive, .multiBrand
+		+vcenter(30rem)
+
+	.blocksBg, .multiBrand
+		img
+			margin-left: 0em
+
+
+
+// Large devices (desktops, 62em and up)
+// @media (min-width: 62em)
+
+// Extra large devices (large desktops, 75em and up)
+//@media (min-width: 75em) { ... }

@@ -1,0 +1,32 @@
+head
+	meta(charset="utf-8")
+	meta(http-equiv="X-UA-Compatible" content="IE=edge")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+	//- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+	meta(name="description" content="#{description}")
+	meta(name="author" content="#{author}")
+	link(rel="icon" href="#{assetsPath}favicon.ico")
+
+	//- google-site-verification
+	meta(name="google-site-verification" content="1G_pYA1mSJgviIfgLlTvwpJA6r7e84tCrvh5jjjcMZA")
+	title= title
+	meta(name="description" content="#{description}")
+	link(rel="canonical" href="#{siteLink}")
+
+	link(href="#{assetsPath}css/main.css" rel="stylesheet")
+	link(href='#{googleFont}' rel='stylesheet' type='text/css')
+
+	// IE10 viewport hack for Surface/desktop Windows 8 bug
+	//- script(src="../../assets/js/ie10-viewport-bug-workaround.js")
+
+	//- picturefill
+	script document.createElement( "picture" );
+	script (src="#{assetsPath}js/picturefill.js")
+
+	//- social
+	meta(property="og:site_name" content="#{metaSocialDesc} ")
+	meta(property="og:title")
+	meta(property="og:url" content="#{siteLink}")
+	meta(property="og:type" content="website")
+	meta(property="og:description")
+	meta(property="og:image")

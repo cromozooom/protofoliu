@@ -1,0 +1,75 @@
+.peepler
+	.title
+		background: $peepler_accent01
+		.subtile
+			color:white
+		h3
+			color: $peepler_accent03
+
+.peepler
+	
+	blockquote
+		span
+			font-size: 15rem
+			font-family: serif
+			display: block
+			background: red
+			margin-top: -10rem
+		a
+			color: $peepler_primary
+
+	.heroImage
+		background: $peepler_accent01
+		width: 100%
+		overflow: hidden
+	img
+		margin: 0 auto
+	a.btn.btn-primary-outline
+		border-color: $peepler_primary
+		color: $peepler_primary
+		&:hover
+			background:  $peepler_primary
+			color: lighten($peepler_primary, 70%)
+
+	svg
+		max-width: 60px
+		fill: $peepler_accent03
+	.lead
+		margin-bottom: 4em
+	.cta
+		margin-top: 4em
+
+	.thumbProject
+		margin-top: -2em
+
+	.content
+		h5
+			padding: 1em
+			font-family: $font-family-heads
+	.thumb01
+		.content
+			background: $peepler_accent03
+			h5
+				color: white
+
+	.thumb02
+		.content
+			background: $peepler_accent02
+			h5
+				color: black
+
+// Small devices (landscape phones, 34em and up)
+// @media (min-width: 34em)
+
+// Medium devices (tablets, 48em and up)
+// @media (min-width: 48em)
+
+
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em)
+	.peepler
+		.thumbProject
+			margin-top: -5em
+// Extra large devices (large desktops, 75em and up)
+//@media (min-width: 75em) { ... }
