@@ -1,9 +1,13 @@
 include ../mixin/mixin
 include ../config/config
+
+block pagevars
+
+
 doctype html
 html(lang="en")
 	include _head
-	body
+	body(class="#{bodyClass}")
 		include _navigation
 
 		block contentPage

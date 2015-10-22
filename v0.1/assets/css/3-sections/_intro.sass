@@ -13,8 +13,14 @@
 
 	h1, h2
 		font-weight: 700
-		font-size: 5em
+		font-size: 2em
 		color: rgba($brand-accent01, .6)
+	h1
+		text-indent: -.5em
+		.colored
+			color: rgba($brand-primary, .6)
+			text-decoration: underline
+			text-transform: uppercase
 	h2
 		color: rgba($brand-primary, .6)
 
@@ -23,3 +29,28 @@
 		color: lighten($brand-primary, 20%)
 		span
 			color: $brand-primary
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em)
+	#intro
+		h1, h2
+			font-size: 2em
+			line-height: 1.2em
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em)
+	#intro
+		h1, h2
+			font-size: 2em
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em)
+	#intro
+		h1, h2
+			font-size: 3em
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em)
+	#intro
+		h1, h2
+			font-size: 4em

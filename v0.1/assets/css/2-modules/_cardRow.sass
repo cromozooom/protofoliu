@@ -9,8 +9,6 @@ $peeplerAccentone: #045043
 $newsletterPrimaryColor: #b3ff00
 $newsletterSecondaryColor: #221f1f
 
-// section.cardRow
-
 
 /* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } // required */
 .grid
@@ -134,3 +132,52 @@ figure.effect-goliath#pr03
 		color:  $newsletterPrimaryColor
 	&:hover p
 		color:  white
+
+.cardRow
+	.titleSection
+		background:  $brand-accent01
+		color: white
+		padding: 2em
+		//margin-top: 30%
+		font-size: 2em
+		margin-bottom: 0
+	h2
+		font-size: 1em
+//@media (min-width: 34em)
+
+@media (min-width: 48em)
+	.cardRow
+		.titleSection
+			background: transparent
+			color: black
+			padding: 0em
+			font-size: 2em
+			margin-top: auto
+			margin-bottom: 2em
+
+		h2
+			font-size: 1em
+		p
+			display: none
+
+@media (min-width: 62em)
+	.cardRow
+		.titleSection
+			font-size: 2em
+			margin-top: auto
+			margin-bottom: 2em
+		h2
+			font-size: 1.5em
+		p
+			display: block
+
+@media (min-width: 75em)
+	.cardRow
+		.titleSection
+			font-size: 2em
+			margin-top: auto
+			margin-bottom: 2em
+		h2
+			font-size: 2em
+		p
+			display: block

@@ -5945,6 +5945,59 @@ figure.effect-goliath#pr03:hover p {
   color: white;
 }
 
+.cardRow .titleSection {
+  background: #e53b25;
+  color: white;
+  padding: 2em;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.cardRow h2 {
+  font-size: 1em;
+}
+
+@media (min-width: 48em) {
+  .cardRow .titleSection {
+    background: transparent;
+    color: black;
+    padding: 0em;
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 2em;
+  }
+  .cardRow h2 {
+    font-size: 1em;
+  }
+  .cardRow p {
+    display: none;
+  }
+}
+@media (min-width: 62em) {
+  .cardRow .titleSection {
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 2em;
+  }
+  .cardRow h2 {
+    font-size: 1.5em;
+  }
+  .cardRow p {
+    display: block;
+  }
+}
+@media (min-width: 75em) {
+  .cardRow .titleSection {
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 2em;
+  }
+  .cardRow h2 {
+    font-size: 2em;
+  }
+  .cardRow p {
+    display: block;
+  }
+}
 .logoDesk, .logoMobile {
   height: 30px;
   width: 121px;
@@ -6248,8 +6301,16 @@ svg.iconSocial #iconlinkedin #stroke_01 {
 }
 #intro h1, #intro h2 {
   font-weight: 700;
-  font-size: 5em;
+  font-size: 2em;
   color: rgba(229, 59, 37, 0.6);
+}
+#intro h1 {
+  text-indent: -0.5em;
+}
+#intro h1 .colored {
+  color: rgba(121, 46, 211, 0.6);
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 #intro h2 {
   color: rgba(121, 46, 211, 0.6);
@@ -6261,6 +6322,27 @@ svg.iconSocial #iconlinkedin #stroke_01 {
   color: #792ed3;
 }
 
+@media (min-width: 34em) {
+  #intro h1, #intro h2 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+}
+@media (min-width: 48em) {
+  #intro h1, #intro h2 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 62em) {
+  #intro h1, #intro h2 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 75em) {
+  #intro h1, #intro h2 {
+    font-size: 4em;
+  }
+}
 section {
   padding: 4rem 0;
 }
