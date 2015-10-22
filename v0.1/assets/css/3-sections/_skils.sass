@@ -2,7 +2,7 @@
 	.icon
 		width: 100px
 		heignt: 100px
-	background:  lighten(#c0f8ff, 5%)
+	//background:  lighten(#c0f8ff, 5%)
 	h5
 		padding: 1rem 0 1rem 0
 		clear: both
@@ -13,38 +13,138 @@
 		border-radius: 0
 		background: transparent
 
-li.list-group-item.graphinc
-	border-left: 5px solid #ff0000
-li.list-group-item.illustration
-	border-left: 5px solid #48eeff
-li.list-group-item.web
-	border-left: 5px solid #33b58a
-li.list-group-item.marketing
-	border-left: 5px solid #ffe000
+	svg.icon
+		#iconUi
+			// fil
+			fill: black
+			fill-opacity:  0
+			display: block
+			//.line
+			stroke-width: 1
+			stroke: black
+			#bg
+				fill: black
+				fill-opacity:  1
 
-.graphinc
-	border-top: 5px solid #ff0000
-.illustration
-	border-top: 5px solid #48eeff
+			#fill_01
+				fill: darken($brand-primary, 0%)
+				fill-opacity:  0
+				stroke: none
+			#fill_02
+				fill: $brand-primary
+				fill-opacity:  0
+				stroke: none
+			#stroke_01
+				stroke: darken($brand-primary, 0%)
+				stroke-width: 1
+			#stroke_02
+				stroke: darken($brand-primary, 0%)
+				stroke-width: 1
+
+		#iconBrain
+			// fil
+			fill: black
+			fill-opacity:  0
+			display: block
+			//.line
+			stroke-width: 1
+			stroke: black
+			#bg
+				fill: black
+				fill-opacity:  1
+
+			#fill_01
+				fill: darken($brand-accent01, 0%)
+				fill-opacity:  0
+				stroke: none
+			#fill_02
+				fill: $brand-accent01
+				fill-opacity:  0
+				stroke: none
+			#stroke_01
+				stroke: darken($brand-accent01, 0%)
+				stroke-width: 1
+			#stroke_02
+				stroke: darken($brand-accent01, 0%)
+				stroke-width: 1
+
+		#iconVectorIllustrator
+			// fil
+			fill: black
+			fill-opacity:  0
+			display: block
+			//.line
+			stroke-width: 1
+			stroke: black
+			#bg
+				fill: black
+				fill-opacity:  1
+
+			#fill_01
+				fill: darken($brand-accent03, 0%)
+				fill-opacity:  0
+				stroke: none
+			#fill_02
+				fill: $brand-accent03
+				fill-opacity:  0
+				stroke: none
+			#stroke_01
+				stroke: darken($brand-accent03, 0%)
+				stroke-width: 1
+			#stroke_02
+				stroke: darken($brand-accent03, 0%)
+				stroke-width: 1
+
+		#iconMarketing
+			// fil
+			fill: black
+			fill-opacity:  0
+			display: block
+			//.line
+			stroke-width: 1
+			stroke: black
+			#bg
+				fill: black
+				fill-opacity:  1
+
+			#fill_01
+				fill: darken($brand-accent04, 0%)
+				fill-opacity:  0
+				stroke: none
+			#fill_02
+				fill: $brand-accent04
+				fill-opacity:  0
+				stroke: none
+			#stroke_01
+				stroke: darken($brand-accent04, 0%)
+				stroke-width: 1
+			#stroke_02
+				stroke: darken($brand-accent04, 0%)
+				stroke-width: 1
+
+
 .web
-	border-top: 5px solid #33b58a
+	border-top: 5px solid $brand-primary
+	h5
+		color: $brand-primary
+	hr
+		border-top-color: $brand-primary
+.graphinc
+	border-top: 5px solid $brand-accent01
+	h5
+		color: $brand-accent01
+	hr
+		border-top-color: $brand-accent01
+
+.illustration
+	border-top: 5px solid $brand-accent03
+	h5
+		color: darken($brand-accent03, 20%)
+	hr
+		border-top-color: $brand-accent03
 .marketing
-	border-top: 5px solid #ffe000
-
-.statistics
-	ul
-		li
-			padding-left: 0
-			margin: 0
-
-	.titleSoft
-		float: left
-		display: block
-		width: auto
-		font-weight: bold
-	li
-		display: block
-		clear: both
-		line-height: 2rem
-	i
-		float: right
+	border-top: 5px solid $brand-accent04
+	h5
+		color: $brand-accent04
+	hr
+		border-top-color: $brand-accent04

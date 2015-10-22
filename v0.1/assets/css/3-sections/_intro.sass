@@ -1,13 +1,25 @@
-$brand-primary: #ED2224
-$brand-accent01: #33B58A
-$brand-accent02: #76CFE6
-$brand-accent03: #FEE000
-
 #intro
+	hr.top-horisontal
+		width: 0px
+		height: 0px
+		display: block
+		//background: $brand-accent03
+		border: none
+		float: left
+		border-top: 30px solid $brand-accent01
+		border-left: 30px solid transparent
+		border-bottom: 30px solid $brand-primary
+		border-right: 30px solid transparent
+
 	h1, h2
 		font-weight: 700
-	h1
-		color: darken($brand-accent02, 5%)
-		font-size: 4em
+		font-size: 5em
+		color: rgba($brand-accent01, .6)
 	h2
-		font-size: 6em	
+		color: rgba($brand-primary, .6)
+
+
+	p.lead
+		color: lighten($brand-primary, 20%)
+		span
+			color: $brand-primary
