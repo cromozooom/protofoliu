@@ -14,13 +14,12 @@
 	h1, h2
 		font-weight: 700
 		font-size: 2em
-		color: rgba($brand-accent01, .6)
 		color: white
 	h1
 		text-indent: -.5em
 		.colored
-			color: rgba($brand-primary, .6)
 			color: $brand-accent00
+			color: rgba($brand-accent00, .7)
 			//text-decoration: underline
 			text-transform: uppercase
 	h2
@@ -30,8 +29,8 @@
 
 	p.lead
 		color: lighten($brand-primary, 20%)
-		color: darken($brand-accent00, 10%)
-		font-size: 2em
+		color: lighten($brand-accent00, 100%)
+		font-size: 1.5em
 		span
 			color: $brand-primary
 
@@ -47,6 +46,9 @@
 	#intro
 		h1, h2
 			font-size: 2em
+		p.lead
+			font-size: 1.5em
+			color: darken($brand-accent00, 20%)
 
 // Large devices (desktops, 62em and up)
 @media (min-width: 62em)

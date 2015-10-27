@@ -1,0 +1,116 @@
+.bufnita
+	section.quote
+		background-repeat:  no-repeat
+		background-image: url("../images/bufnita-din-tei/quote-Bg_small.jpg")
+		background-position: 50% 50%
+		background-color: $accent01-color-bufnitadintei
+		background-size: cover
+		blockquote
+			p
+				font-family: $headings-font-family
+				color: white
+				font-size: 1.5em
+			footer
+				max-width: 800px
+				margin: 0 auto
+				color: $accent02-color-bufnitadintei
+				padding: 0
+		.hand-quote, .bufnita-quote
+			width: 200px
+		.svg
+			hr
+				border-color: transparent
+				height: 30px
+			p
+				font-size: 1.5em
+				color: white
+				em
+					text-transform: uppercase
+					font-weight: 800
+					font-style: normal
+		.container
+			padding: 6em 0
+		em.titleSection
+			font-family: $headings-font-family
+			font-weight: 700
+			font-style: normal
+			font-size: 1.5rem
+			display: block
+			margin-bottom:  0
+			text-transform: uppercase
+		h2
+			font-size: 3rem
+			color: white
+			font-weight: 400
+			padding: 1em 0
+// Extra small devices (portrait phones, less than ???px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em)
+	.bufnita
+		section.quote
+			background-image: url("../images/bufnita-din-tei/quote-Bg_small.jpg")
+			.hand-quote, .bufnita-quote
+				width: 200px
+			blockquote
+				p
+					font-size: 2em
+					line-height: 3.5rem
+				footer
+					font-size: 1.5rem
+			em.titleSection
+				padding-top: 2em
+				clear: both
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em)
+	.bufnita
+		section.quote
+			background-image: url("../images/bufnita-din-tei/quote-Bg_medium.jpg")
+			.hand-quote, .bufnita-quote
+				width: 200px
+			blockquote
+				p
+					font-size: 2em
+					line-height: 3.5rem
+				footer
+					font-size: 1.5rem
+			em.titleSection
+				padding-top: 2em
+				clear: both
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em)
+	.bufnita
+		section.quote
+			background-image: url("../images/bufnita-din-tei/quote-Bg_large.jpg")
+			.hand-quote, .bufnita-quote
+				width: 300px
+			blockquote
+				p
+					font-size: 2.5em
+					line-height: 3.5rem
+				footer
+					font-size: 1.5rem
+			em.titleSection
+				padding-top: 2em
+				clear: both
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em)
+	.bufnita
+		section.quote
+			background-image: url("../images/bufnita-din-tei/quote-Bg_huge.jpg")
+			.hand-quote, .bufnita-quote
+				width: 300px
+			blockquote
+				p
+					font-size: 3em
+					line-height: 3.5rem
+				footer
+					font-size: 1.5rem
+			em.titleSection
+				padding-top: 2em
+				clear: both
+
