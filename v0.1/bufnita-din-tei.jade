@@ -17,7 +17,7 @@ block contentPage
 					| Two superheroes, sorry parents, who decided to open a super private school.
 
 
-				+pictureBufnita("title-bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons")
+				+pictureBufnita("title-bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons", ".jpg")
 	section.quote.container-fluid
 		blockquote.text-center
 			p
@@ -48,15 +48,16 @@ block contentPage
 						| But I found a local star named NICA - John Creanga’s character known by all children in Romania.
 						| It is best known for his jokes and story "Pupaza din tei" which has since become "Owl Lime".
 	section.draw.container-fluid
-		.row
-			.col-xs-12
-				em.titleSection draw
-				h2
-					| Let’s start to draw
-				p
-					| From beautifoul grid to <strong>hand</strong> form and back to the <strong>owl</strong>
+		.container
+			.row
+				.col-sm-12.col-md-6
+					em.titleSection draw
+					h2
+						| Let’s start to draw
+					p
+						| From beautifoul grid to <strong>hand</strong> form and back to the <strong>owl</strong>
 
-	section.logo-construction.container-fluid
+	//- section.logo-construction.container-fluid
 		.row
 			.col-xs-12
 				em.titleSection logo construction
@@ -73,6 +74,8 @@ block contentPage
 					| Not exactly
 				p
 					| The choice of color was a very easy, based on the idea that there must be a cheerful color palette.
+
+				+pictureBufnita("color-icon-Bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons", ".png")
 
 	section.final-logo.container-fluid
 		.row
