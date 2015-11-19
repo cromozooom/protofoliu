@@ -18,6 +18,8 @@ block contentPage
 
 
 				+pictureBufnita("title-bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons", ".jpg")
+				p.text-center
+					small: i Sample of icons creeated by me, for this project
 	section.quote.container-fluid
 		blockquote.text-center
 			p
@@ -61,35 +63,44 @@ block contentPage
 
 
 	section.logo-construction.container-fluid
-		.row
-			.col-xs-12
-				em.titleSection logo construction
-				h2
-					| Flip and transform
-				p
-					| Playing with shapes is my pleasure. Is exactly what I did
+		.container
+			.row
+				.col-xs-12.col-md-6
+					img.img-responsive(src="assets/images/bufnita-din-tei/02.gif")
+				.col-xs-12.col-md-6
+					em.titleSection logo construction
+					h2
+						| Flip and transform
+					p
+						| Playing with shapes is my pleasure. Is exactly what I did
+					a.link.btn.btn-primary(href="")
+						| see the presentation
 
 	section.color.container-fluid
-		.row
-			.col-xs-12
-				em.titleSection owl «love color»
-				h2
-					| Not exactly
-				p
-					| The choice of color was a very easy, based on the idea that there must be a cheerful color palette.
-
-				+pictureBufnita("color-icon-Bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons", ".png")
+		.container
+			.row
+				.col-sm-12.col-md-6
+					em.titleSection owl «love color»
+					h2
+						| Not exactly, thei are night birds...
+					p
+						| The choice of color was a very easy, based on the idea that there must be a cheerful color palette.
+				.col-xs-12
+					br
+					+pictureBufnita("color-icon-Bg", "icons", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "icons", ".png")
 
 	section.final-logo.container-fluid
-		.row
-			.col-xs-12
-				h1 The final logo contains
-				p.lead 2 hand + 1 head of owl
-			.col-xs-12
-				em.titleSection question:
-				h2
-					| What do yu think?
-				p
-					| Let your thoughts flow ...
-					br
-					| I'm sure you will influence Razvan if they are positive
+		.container
+			.row
+				.col-xs-12.text-center
+					h1 The final logo contains
+					p.lead 2 hand + 1 head of owl & don't forget the glases
+					+pictureBufnita("logo_on_green", "logo bufnita din tei", "1440", "1366", "1080", "assets/images/bufnita-din-tei", "logo text-center", ".jpg")
+				.col-xs-12
+					em.titleSection question:
+					h2
+						| What do yu think?
+					p
+						| Let your thoughts flow ...
+						br
+						| I'm sure you will influence Razvan if they are positive
